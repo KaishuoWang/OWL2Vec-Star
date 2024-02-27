@@ -1,0 +1,3565 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/> .
+@prefix ns10: <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/> .
+@prefix ns11: <https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/> .
+@prefix ns12: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix ns13: <https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/> .
+@prefix ns14: <https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/> .
+@prefix ns15: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix ns16: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/> .
+@prefix ns17: <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/> .
+@prefix ns18: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/> .
+@prefix ns19: <https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/> .
+@prefix ns2: <https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/> .
+@prefix ns20: <https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/> .
+@prefix ns21: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/> .
+@prefix ns22: <https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles/> .
+@prefix ns23: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/> .
+@prefix ns24: <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/> .
+@prefix ns25: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
+@prefix ns26: <https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/> .
+@prefix ns27: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/> .
+@prefix ns28: <https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/> .
+@prefix ns29: <https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/> .
+@prefix ns3: <https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/> .
+@prefix ns30: <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/> .
+@prefix ns31: <https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/> .
+@prefix ns32: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix ns4: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix ns5: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix ns6: <https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/> .
+@prefix ns7: <https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/> .
+@prefix ns8: <https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/> .
+@prefix ns9: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owl2vec: <http://www.semanticweb.org/owl2vec#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.omg.org/techprocess/ab/SpecificationMetadata> rdfs:label "Specification Metadata (SM) Vocabulary" .
+
+ns32:addressForComments rdfs:label "addressForComments" .
+
+ns32:affectsModelElement rdfs:label "affects model element" .
+
+ns32:author rdfs:label "author" .
+
+ns32:contentLanguage rdfs:label "content language" .
+
+ns32:contentType rdfs:label "content type" .
+
+ns32:contributor rdfs:label "contributor" .
+
+ns32:copyright rdfs:label "copyright" .
+
+ns32:dependsOn rdfs:label "depends on" .
+
+ns32:directSource rdfs:label "direct source" .
+
+ns32:documentNumber rdfs:label "document number" .
+
+ns32:documentURL rdfs:label "URL for the document" .
+
+ns32:editor rdfs:label "editor" .
+
+ns32:familyAbbreviation rdfs:label "specification family abbreviation or acronym" .
+
+ns32:familyAbstract rdfs:label "family abstract" .
+
+ns32:familyTitle rdfs:label "specification family title" .
+
+ns32:familyURL rdfs:label "specification family URL" .
+
+ns32:fileAbbreviation rdfs:label "file-level abbreviation or acronym" .
+
+ns32:fileAbstract rdfs:label "file-level abstract" .
+
+ns32:fileVersion rdfs:label "file version" .
+
+ns32:filename rdfs:label "electronic file name" .
+
+ns32:formalVersion rdfs:label "formal version" .
+
+ns32:format rdfs:label "format" .
+
+ns32:hasDescription rdfs:label "has description" .
+
+ns32:hasIssueReference rdfs:label "has issue reference" .
+
+ns32:hasSpecificationVersion rdfs:label "has specification version" .
+
+ns32:informativeReference rdfs:label "informative reference" .
+
+ns32:isIdentifiedBy rdfs:label "is identified by" .
+
+ns32:isNormative rdfs:label "is normative" .
+
+ns32:isReflectedIn rdfs:label "is reflected in" .
+
+ns32:isVersionOf rdfs:label "is version of" .
+
+ns32:keyword rdfs:label "keyword" .
+
+ns32:moduleAbbreviation rdfs:label "module abbreviation or acronym" .
+
+ns32:moduleAbstract rdfs:label "module abstract" .
+
+ns32:moduleName rdfs:label "module name" .
+
+ns32:moduleShortTitle rdfs:label "module short title" .
+
+ns32:moduleVersion rdfs:label "module version" .
+
+ns32:normativeReference rdfs:label "normative reference" .
+
+ns32:priorSpecificationVersion rdfs:label "prior specification version" .
+
+ns32:priorVersion rdfs:label "prior version" .
+
+ns32:publicationDate rdfs:label "publication date" .
+
+ns32:reflects rdfs:label "reflects" .
+
+ns32:relatedSpecification rdfs:label "related specification" .
+
+ns32:responsibleTaskForce rdfs:label "responsible task force" .
+
+ns32:revisedBy rdfs:label "revised by" .
+
+ns32:shortTitle rdfs:label "short name for the specification or module" .
+
+ns32:specificationAbbreviation rdfs:label "specification abbreviation or acronym" .
+
+ns32:specificationAbstract rdfs:label "specification abstract" .
+
+ns32:specificationTitle rdfs:label "specification name or title" .
+
+ns32:specificationURL rdfs:label "specification URL" .
+
+ns32:specificationVersionStatus rdfs:label "specification version status" .
+
+ns32:specificationVersionURL rdfs:label "specification version URL" .
+
+ns32:submitter rdfs:label "submitter" .
+
+ns32:taskForceReport rdfs:label "task force report" .
+
+ns32:technologyArea rdfs:label "technology area" .
+
+ns32:thisVersion rdfs:label "this version" .
+
+ns32:topicArea rdfs:label "topic area" .
+
+<http://www.w3.org/2004/02/skos/core> dcterms:description "An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies."@en ;
+    dcterms:title "SKOS Vocabulary"@en .
+
+<https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations> rdfs:label "Accounting Equity Ontology",
+        "Addresses Ontology",
+        "Agents Ontology",
+        "Agreements Ontology",
+        "Analytics Ontology",
+        "Annotation Vocabulary",
+        "Arrangements Ontology",
+        "Business Dates Ontology",
+        "Classification Schemes Ontology",
+        "Contracts Ontology",
+        "Corporate Bodies Ontology",
+        "Corporations Ontology",
+        "Country and Subdivision Representation Ontology",
+        "Currency Amount Ontology",
+        "Documents Ontology",
+        "Financial Dates Ontology",
+        "Formal Business Organizations Ontology",
+        "Formal Organizations Ontology",
+        "Identifiers and Indices Ontology",
+        "Jurisdiction Ontology",
+        "Language Representation Ontology",
+        "Legal Capacity Ontology",
+        "Legal Core Ontology",
+        "Legal Persons Ontology",
+        "Locations Ontology",
+        "Objectives Ontology",
+        "Occurrences Ontology",
+        "Organizations Ontology",
+        "Ownership Ontology",
+        "Parties Ontology",
+        "People Ontology",
+        "Quantities and Units Ontology",
+        "Relations Ontology",
+        "Roles Ontology",
+        "Specification Metadata (SM) Vocabulary" ;
+    dcterms:description "An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies."@en ;
+    dcterms:title "SKOS Vocabulary"@en .
+
+ns3:hasDateOfIncorporation rdfs:label "has date of incorporation" .
+
+ns3:hasDateOfRegistration rdfs:label "has date of registration" .
+
+ns3:hasIssuedCapital rdfs:label "has issued capital" .
+
+ns3:hasSharesAuthorized rdfs:label "has shares authorized"@en .
+
+<https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies> rdfs:label "Corporate Bodies Ontology" .
+
+ns30:isConstitutedBy rdfs:label "is constituted by" .
+
+ns30:isIncorporatedIn rdfs:label "is incorporated in" .
+
+<https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations> rdfs:label "Formal Business Organizations Ontology" .
+
+ns24:hasEquity rdfs:label "has equity" .
+
+ns24:hasHeadquartersAddress rdfs:label "has headquarters address" .
+
+ns24:hasOperatingAddress rdfs:label "has operating address" .
+
+ns24:hasRegisteredAddress rdfs:label "has registered address" .
+
+<https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons> rdfs:label "Legal Persons Ontology" .
+
+ns10:isOrganizedIn rdfs:label "is organized in" .
+
+ns10:isRecognizedIn rdfs:label "is recognized in" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity> rdfs:label "Accounting Equity Ontology" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount> rdfs:label "Currency Amount Ontology" .
+
+ns17:hasAmount rdfs:label "has amount" .
+
+ns17:hasBaseCurrency rdfs:label "has base currency" .
+
+ns17:hasCurrency rdfs:label "has currency" .
+
+ns17:hasDealtCurrency rdfs:label "has dealt currency" .
+
+ns17:hasFundsType rdfs:label "has funds type" .
+
+ns17:hasMinorUnit rdfs:label "has minor unit" .
+
+ns17:hasMonetaryAmount rdfs:label "has monetary amount" .
+
+ns17:hasNotionalAmount rdfs:label "has notional amount" .
+
+ns17:hasNumericCode rdfs:label "has numeric code" .
+
+ns17:hasPrice rdfs:label "has price" .
+
+ns17:hasRateValue rdfs:label "has rate value" .
+
+ns17:isPriceFor rdfs:label "is price for" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents> rdfs:label "Agents Ontology" .
+
+ns28:hasStructuredName rdfs:label "has structured name" .
+
+ns28:hasTextValue rdfs:label "has text value" .
+
+ns28:isStructuredNameOf rdfs:label "is structured name of" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People> rdfs:label "People Ontology" .
+
+ns8:hasAgeOfMajority rdfs:label "has age of majority" .
+
+ns8:hasCitizenship rdfs:label "has citizenship" .
+
+ns8:hasDateOfBirth rdfs:label "has date of birth" .
+
+ns8:hasDateOfDeath rdfs:label "has date of death" .
+
+ns8:hasFamilyName rdfs:label "has family name" .
+
+ns8:hasFirstName rdfs:label "has first name" .
+
+ns8:hasFullLegalName rdfs:label "has full legal name" .
+
+ns8:hasGender rdfs:label "has gender" .
+
+ns8:hasGivenName rdfs:label "has given name" .
+
+ns8:hasLastName rdfs:label "has last name" .
+
+ns8:hasMaidenName rdfs:label "has maiden name" .
+
+ns8:hasMiddleNameOrInitial rdfs:label "has middle name or initial" .
+
+ns8:hasMinimumLegalWorkingAge rdfs:label "has minimum legal working age" .
+
+ns8:hasNamePrefix rdfs:label "has name prefix" .
+
+ns8:hasNameSuffix rdfs:label "has name suffix" .
+
+ns8:hasPersonName rdfs:label "has person name" .
+
+ns8:hasPlaceOfBirth rdfs:label "has place of birth" .
+
+ns8:hasPrimaryResidence rdfs:label "has primary residence" .
+
+ns8:hasResidence rdfs:label "has residence" .
+
+ns8:hasSurname rdfs:label "has surname" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements> rdfs:label "Agreements Ontology" .
+
+ns31:hasObligation rdfs:label "has obligation" .
+
+ns31:isObligationOf rdfs:label "is obligation of" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts> rdfs:label "Contracts Ontology" .
+
+ns7:definesTermsFor rdfs:label "defines terms for" .
+
+ns7:hasContractDuration rdfs:label "has contract duration"@en .
+
+ns7:hasContractParty rdfs:label "has contract party" .
+
+ns7:hasContractualElement rdfs:label "has contractual element" .
+
+ns7:hasCounterparty rdfs:label "has counterparty" .
+
+ns7:hasEffectiveDate rdfs:label "has effective date" .
+
+ns7:hasEffectiveDateTimeStamp rdfs:label "has effective date time stamp" .
+
+ns7:hasExecutionDate rdfs:label "has execution date" .
+
+ns7:hasExecutionDateTimeStamp rdfs:label "has execution date time stamp" .
+
+ns7:hasExtendablePeriod rdfs:label "has extendable period" .
+
+ns7:hasExtensionProvision rdfs:label "has extension provision" .
+
+ns7:hasGoverningJurisdiction rdfs:label "has governing jurisdiction" .
+
+ns7:hasNonBindingTerm rdfs:label "has non-binding term" .
+
+ns7:hasPrincipalParty rdfs:label "has principal party" .
+
+ns7:hasTerm rdfs:label "has term"@en .
+
+ns7:hasThirdParty rdfs:label "has third party" .
+
+ns7:isAssignable rdfs:label "is assignable" .
+
+ns7:isEvidenceFor rdfs:label "is evidence for" .
+
+ns7:isEvidencedBy rdfs:label "is evidenced by" .
+
+ns7:isQualifiedBy rdfs:label "is qualified by" .
+
+ns7:qualifies rdfs:label "qualifies" .
+
+ns7:supersedes rdfs:label "supersedes" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements> rdfs:label "Arrangements Ontology" .
+
+ns27:hasCollectionSize rdfs:label "has collection size" .
+
+ns27:hasConstituent rdfs:label "has constituent" .
+
+ns27:isConstituentOf rdfs:label "is constituent of" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes> rdfs:label "Classification Schemes Ontology" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents> rdfs:label "Documents Ontology" .
+
+ns23:hasDataSource rdfs:label "has data source" .
+
+ns23:hasDateOfIssuance rdfs:label "has date of issuance" .
+
+ns23:hasExpirationDate rdfs:label "has expiration date" .
+
+ns23:hasRecord rdfs:label "has record" .
+
+ns23:hasReportingPeriod rdfs:label "has reporting period" .
+
+ns23:hasTerminationDate rdfs:label "has termination date" .
+
+ns23:isAbout rdfs:label "is about" .
+
+ns23:records rdfs:label "records" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices> rdfs:label "Identifiers and Indices Ontology" .
+
+ns18:constructRegex rdfs:label "construct regex" .
+
+ns18:hasAssignmentTerminationDate rdfs:label "has assignment termination date" .
+
+ns18:hasInitialAssignmentDate rdfs:label "has initial assignment date" .
+
+ns18:isIndexTo rdfs:label "is index to" .
+
+ns18:parseRegex rdfs:label "parse regex" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates> rdfs:label "Business Dates Ontology" .
+
+ns9:hasBusinessDayAdjustment rdfs:label "has business day adjustment" .
+
+ns9:hasBusinessDayConvention rdfs:label "has business day convention" .
+
+ns9:hasBusinessRecurrenceIntervalConvention rdfs:label "has business recurrence interval convention" .
+
+ns9:holdsDuring rdfs:label "holds during" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates> rdfs:label "Financial Dates Ontology" .
+
+ns12:hasAcquisitionDate rdfs:label "has acquisition date" .
+
+ns12:hasAge rdfs:label "has age" .
+
+ns12:hasAsOfDate rdfs:label "has as-of date" .
+
+ns12:hasCalendarPeriod rdfs:label "has calendar period" .
+
+ns12:hasClosingDateTime rdfs:label "has closing date time"@en .
+
+ns12:hasCount rdfs:label "has count" .
+
+ns12:hasDate rdfs:label "has date" .
+
+ns12:hasDateAdded rdfs:label "has date added" .
+
+ns12:hasDatePeriod rdfs:label "has date period" .
+
+ns12:hasDateReceived rdfs:label "has date received" .
+
+ns12:hasDateSpecification rdfs:label "has date specification" .
+
+ns12:hasDateTime rdfs:label "has date time" .
+
+ns12:hasDateTimeStamp rdfs:label "has date time stamp" .
+
+ns12:hasDateTimeStampValue rdfs:label "has date time stamp value" .
+
+ns12:hasDateTimeValue rdfs:label "has date time value" .
+
+ns12:hasDateValue rdfs:label "has date value" .
+
+ns12:hasDuration rdfs:label "has duration" .
+
+ns12:hasDurationValue rdfs:label "has duration value" .
+
+ns12:hasEndDate rdfs:label "has end date" .
+
+ns12:hasExplicitDate rdfs:label "has explicit date" .
+
+ns12:hasFinalStub rdfs:label "has final stub" .
+
+ns12:hasInitialStub rdfs:label "has initial stub" .
+
+ns12:hasObservedDateTime rdfs:label "has observed date and time" .
+
+ns12:hasOpeningDateTime rdfs:label "has opening date time"@en .
+
+ns12:hasOrdinalNumber rdfs:label "has ordinal number" .
+
+ns12:hasOverallPeriod rdfs:label "has overall period" .
+
+ns12:hasRecurrenceInterval rdfs:label "has recurrence interval" .
+
+ns12:hasRecurrenceStartDate rdfs:label "has recurrence start date" .
+
+ns12:hasRelativeDuration rdfs:label "has relative duration" .
+
+ns12:hasSchedule rdfs:label "has schedule" .
+
+ns12:hasStartDate rdfs:label "has start date" .
+
+ns12:hasStub rdfs:label "has stub" .
+
+ns12:hasTimeDirection rdfs:label "has time direction" .
+
+ns12:hasTimeValue rdfs:label "has time value" .
+
+ns12:isRelativeTo rdfs:label "is relative to" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences> rdfs:label "Occurrences Ontology" .
+
+ns21:exemplifies rdfs:label "exemplifies" .
+
+ns21:hasEventDate rdfs:label "has event date" .
+
+ns21:hasEventDateValue rdfs:label "has event date value" .
+
+ns21:hasInput rdfs:label "has input" .
+
+ns21:hasOccurrence rdfs:label "has occurrence" .
+
+ns21:hasOutput rdfs:label "has output" .
+
+ns21:isExemplifiedBy rdfs:label "is exemplified by" .
+
+ns21:isInputTo rdfs:label "is input to" .
+
+ns21:isOutputFrom rdfs:label "is output from" .
+
+ns21:isTriggeredBy rdfs:label "is triggered by" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives> rdfs:label "Objectives Ontology" .
+
+ns19:hasGoal rdfs:label "has goal" .
+
+ns19:hasObjective rdfs:label "has objective" .
+
+ns19:hasStrategy rdfs:label "has strategy" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction> rdfs:label "Jurisdiction Ontology" .
+
+ns20:appliesIn rdfs:label "applies in" .
+
+ns20:hasReach rdfs:label "has reach" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity> rdfs:label "Legal Capacity Ontology" .
+
+ns6:hasCapacity rdfs:label "has capacity" .
+
+ns6:implements rdfs:label "implements" .
+
+ns6:implies rdfs:label "implies" .
+
+ns6:isCapacityOf rdfs:label "is capacity of" .
+
+ns6:isImplementedBy rdfs:label "is implemented by" .
+
+ns6:isImpliedBy rdfs:label "is implied by" .
+
+ns6:isLicensedBy rdfs:label "is licensed by" .
+
+ns6:licenses rdfs:label "licenses" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore> rdfs:label "Legal Core Ontology" .
+
+ns2:hasInForce rdfs:label "has in force" .
+
+ns2:isInForceIn rdfs:label "is in force in" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations> rdfs:label "Formal Organizations Ontology" .
+
+ns14:employs rdfs:label "employs" .
+
+ns14:hasEmployedParty rdfs:label "has employed party" .
+
+ns14:hasEmployee rdfs:label "has employee" .
+
+ns14:hasEmployingParty rdfs:label "has employing party" .
+
+ns14:isDomiciledIn rdfs:label "is domiciled in" .
+
+ns14:isEmployedBy rdfs:label "is employed by" .
+
+ns14:isEmployedIn rdfs:label "is employed in" .
+
+ns14:isEmployeeOf rdfs:label "is employee of" .
+
+ns14:isEmployingParty rdfs:label "is employing party" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations> rdfs:label "Organizations Ontology" .
+
+ns26:hasMembership rdfs:label "has membership role" .
+
+ns26:hasOrganizationMember rdfs:label "has organization member" .
+
+ns26:hasSubUnit rdfs:label "has sub-unit" .
+
+ns26:isMembershipPartyIn rdfs:label "is membership party in" .
+
+ns26:isOrganizationMember rdfs:label "is organization member" .
+
+ns26:isSubUnitOf rdfs:label "is sub-unit of" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership> rdfs:label "Ownership Ontology" .
+
+ns11:hasOwnedAsset rdfs:label "has owned asset" .
+
+ns11:hasOwningParty rdfs:label "has owning party" .
+
+ns11:isAssetOf rdfs:label "is asset of" .
+
+ns11:isOwnedAsset rdfs:label "is owned asset" .
+
+ns11:isOwnedBy rdfs:label "is owned by" .
+
+ns11:isOwningParty rdfs:label "is owning party" .
+
+ns11:owns rdfs:label "owns" .
+
+ns11:ownsAsset rdfs:label "is asset owner" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties> rdfs:label "Parties Ontology" .
+
+ns29:actsIn rdfs:label "acts in" .
+
+ns29:actsOn rdfs:label "acts on" .
+
+ns29:directlyAffects rdfs:label "directly affects" .
+
+ns29:experiences rdfs:label "experiences" .
+
+ns29:experiencesDirectly rdfs:label "experiences directly" .
+
+ns29:experiencesWith rdfs:label "experiences with" .
+
+ns29:hasActiveParty rdfs:label "has active party" .
+
+ns29:hasActor rdfs:label "has actor" .
+
+ns29:hasCommencementDate rdfs:label "has commencement date" .
+
+ns29:hasMailingAddress rdfs:label "has mailing address" .
+
+ns29:hasParty rdfs:label "has party" .
+
+ns29:hasPartyInRole rdfs:label "has party in role" .
+
+ns29:hasRelatedPartyInRole rdfs:label "has related party-in-role" .
+
+ns29:hasThingInRole rdfs:label "has thing in role" .
+
+ns29:hasUndergoer rdfs:label "has undergoer" .
+
+ns29:isAPartyTo rdfs:label "is a party to" .
+
+ns29:isAffectedBy rdfs:label "is affected by" .
+
+ns29:isDirectlyAffectedBy rdfs:label "is directly affected by" .
+
+ns29:isExperiencedBy rdfs:label "is experienced by" .
+
+ns29:playsActiveRoleIn rdfs:label "plays active role in" .
+
+ns29:playsActiveRoleThatAffects rdfs:label "plays active role that affects" .
+
+ns29:playsActiveRoleThatDirectlyAffects rdfs:label "plays active role that directly affects" .
+
+ns29:undergoes rdfs:label "undergoes" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles> rdfs:label "Roles Ontology" .
+
+ns22:isPlayedBy rdfs:label "is played by" .
+
+ns22:playsRole rdfs:label "plays role" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses> rdfs:label "Addresses Ontology" .
+
+ns1:hasAddress rdfs:label "has address" .
+
+ns1:hasAddressLine1 rdfs:label "has address line 1" .
+
+ns1:hasAddressLine2 rdfs:label "has address line 2" .
+
+ns1:hasAddressLine3 rdfs:label "has address line 3" .
+
+ns1:hasAttentionLine rdfs:label "has attention line" .
+
+ns1:hasIndividualPostcode rdfs:label "has individual postcode" .
+
+ns1:hasMailRouting rdfs:label "has mail routing" .
+
+ns1:hasPostalCode rdfs:label "has postal code" .
+
+ns1:hasPostdirectionalSymbol rdfs:label "has postdirectional symbol" .
+
+ns1:hasPredirectionalSymbol rdfs:label "has predirectional symbol" .
+
+ns1:hasPrimaryAddressNumber rdfs:label "has primary address number" .
+
+ns1:hasSecondaryUnit rdfs:label "has secondary unit" .
+
+ns1:hasStreetAddress rdfs:label "has street address" .
+
+ns1:hasStreetName rdfs:label "has street name" .
+
+ns1:hasStreetSuffix rdfs:label "has street suffix" .
+
+ns1:hasStructureName rdfs:label "has structure name" .
+
+ns1:hasTransliteratedAddress rdfs:label "has transliterated address" .
+
+ns1:requiresSecondaryUnitRange rdfs:label "requires secondary unit range" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations> rdfs:label "Locations Ontology" .
+
+ns25:hasBusinessCenter rdfs:label "has business center" .
+
+ns25:hasCityName rdfs:label "has city" .
+
+ns25:hasCountry rdfs:label "has country" .
+
+ns25:hasCounty rdfs:label "has county" .
+
+ns25:hasCoverageArea rdfs:label "has coverage area" .
+
+ns25:hasMunicipality rdfs:label "has municipality" .
+
+ns25:hasRegion rdfs:label "has region" .
+
+ns25:hasSubdivision rdfs:label "has subdivision" .
+
+ns25:isLocatedAt rdfs:label "is located at" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits> rdfs:label "Quantities and Units Ontology" .
+
+ns13:hasDimension rdfs:label "has dimension" .
+
+ns13:hasExponent rdfs:label "has exponent" .
+
+ns13:hasFactor rdfs:label "has factor" .
+
+ns13:hasMeasurementUnit rdfs:label "has measurement unit" .
+
+ns13:hasNumericValue rdfs:label "has numeric value" .
+
+ns13:hasQuantityKind rdfs:label "has quantity kind" .
+
+ns13:hasQuantityValue rdfs:label "has quantity value" .
+
+ns13:isDerivedFrom rdfs:label "is derived from" .
+
+ns13:specializes rdfs:label "specializes" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations> rdfs:label "Relations Ontology" .
+
+ns5:Referent rdfs:label "referent" .
+
+ns5:appliesTo rdfs:label "applies to" .
+
+ns5:causes rdfs:label "causes" .
+
+ns5:characterizes rdfs:label "characterizes" .
+
+ns5:comprises rdfs:label "comprises" .
+
+ns5:confers rdfs:label "confers" .
+
+ns5:controls rdfs:label "controls" .
+
+ns5:defines rdfs:label "defines" .
+
+ns5:describes rdfs:label "describes" .
+
+ns5:designates rdfs:label "designates" .
+
+ns5:embodies rdfs:label "embodies" .
+
+ns5:evaluates rdfs:label "evaluates" .
+
+ns5:exchanges rdfs:label "exchanges" .
+
+ns5:generates rdfs:label "generates" .
+
+ns5:governs rdfs:label "governs" .
+
+ns5:hasAlias rdfs:label "has alias" .
+
+ns5:hasCommonName rdfs:label "has common name" .
+
+ns5:hasContext rdfs:label "has context" .
+
+ns5:hasDesignation rdfs:label "has designation" .
+
+ns5:hasFormalName rdfs:label "has formal name" .
+
+ns5:hasIdentity rdfs:label "has identity" .
+
+ns5:hasLegalName rdfs:label "has legal name" .
+
+ns5:hasRepresentation rdfs:label "has representation" .
+
+ns5:holds rdfs:label "holds" .
+
+ns5:involves rdfs:label "involves" .
+
+ns5:isCausedBy rdfs:label "is caused by" .
+
+ns5:isCharacterizedBy rdfs:label "is characterized by" .
+
+ns5:isConferredBy rdfs:label "is conferred by" .
+
+ns5:isConferredOn rdfs:label "is conferred on" .
+
+ns5:isControlledBy rdfs:label "is controlled by" .
+
+ns5:isDefinedIn rdfs:label "is defined in" .
+
+ns5:isDescribedBy rdfs:label "is described by" .
+
+ns5:isDesignatedBy rdfs:label "is designated by" .
+
+ns5:isEvaluatedBy rdfs:label "is evaluated by" .
+
+ns5:isGeneratedBy rdfs:label "is generated by" .
+
+ns5:isGovernedBy rdfs:label "is governed by" .
+
+ns5:isHeldBy rdfs:label "is held by" .
+
+ns5:isIncludedIn rdfs:label "is included in" .
+
+ns5:isIssuedBy rdfs:label "is issued by" .
+
+ns5:isManagedBy rdfs:label "is managed by" .
+
+ns5:isMandatedBy rdfs:label "is mandated by" .
+
+ns5:isProducedBy rdfs:label "is produced by" .
+
+ns5:isProvidedBy rdfs:label "is provided by" .
+
+ns5:issues rdfs:label "issues" .
+
+ns5:manages rdfs:label "manages" .
+
+ns5:mandates rdfs:label "mandates" .
+
+ns5:produces rdfs:label "produces" .
+
+ns5:provides rdfs:label "provides" .
+
+ns5:refersTo rdfs:label "refers to" .
+
+ns5:represents rdfs:label "represents" .
+
+ns5:wasFormerlyKnownAs rdfs:label "was formerly known as" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics> rdfs:label "Analytics Ontology" .
+
+ns16:actualExpression rdfs:label "actual expression" .
+
+ns16:hasAnchorDate rdfs:label "has anchor date" .
+
+ns16:hasApplicableDatePeriod rdfs:label "has applicable date period" .
+
+ns16:hasArgument rdfs:label "has argument" .
+
+ns16:hasExpression rdfs:label "has expression" .
+
+ns16:hasFixedComparativeDate rdfs:label "has fixed comparative date" .
+
+ns16:hasFormula rdfs:label "has formula" .
+
+ns16:hasMeasurementDateTime rdfs:label "has measurement date time" .
+
+ns16:hasMeasurementPeriodInMonths rdfs:label "has measurement period in months" .
+
+ns16:hasMinuend rdfs:label "has minuend" .
+
+ns16:hasNumberOfEntries rdfs:label "has number of entries" .
+
+ns16:hasObservedValue rdfs:label "has observed value" .
+
+ns16:hasPeriodicity rdfs:label "has periodicity" .
+
+ns16:hasPopulationSize rdfs:label "has population size" .
+
+ns16:hasReferencePeriod rdfs:label "has reference period" .
+
+ns16:hasRelativeComparativeDate rdfs:label "has relative comparative date" .
+
+ns16:hasRelativeComparativePeriod rdfs:label "has relative comparative period" .
+
+ns16:hasReleaseDate rdfs:label "has release date" .
+
+ns16:hasReleaseDateTime rdfs:label "has release date and time" .
+
+ns16:hasSubtrahend rdfs:label "has subtrahend" .
+
+ns16:hasUniverseSize rdfs:label "has universe size" .
+
+ns16:hasWeight rdfs:label "has weight" .
+
+ns16:isCalculatedViaMethodology rdfs:label "is calculated via methodology" .
+
+ns16:isEstimate rdfs:label "is estimate" .
+
+ns16:isValueOf rdfs:label "is value of" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary> rdfs:label "Annotation Vocabulary" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/abbreviation> rdfs:label "abbreviation" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/adaptedFrom> rdfs:label "adapted from" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/commonDesignation> rdfs:label "common designation" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/definitionOrigin> rdfs:label "definition origin" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/explanatoryNote> rdfs:label "explanatory note" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel> rdfs:label "has maturity level" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/logicalDefinition> rdfs:label "logical definition" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/modifiedBy> rdfs:label "modified by" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/modifiedOn> rdfs:label "modified on" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation> rdfs:label "preferred designation" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/symbol> rdfs:label "symbol" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/synonym> rdfs:label "synonym" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/termOrigin> rdfs:label "term origin" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/usageNote> rdfs:label "usage note" .
+
+<https://www.omg.org/spec/LCC/Countries/CountryRepresentation> rdfs:label "Country and Subdivision Representation Ontology" .
+
+ns15:classifies rdfs:label "classifies" .
+
+ns15:hasEnglishFullName rdfs:label "has English full name" .
+
+ns15:hasEnglishShortName rdfs:label "has English short name" .
+
+ns15:hasEnglishShortNameInCapitals rdfs:label "has English short name in capitals" .
+
+ns15:hasFrenchFullName rdfs:label "has French full name" .
+
+ns15:hasFrenchShortName rdfs:label "has French short name" .
+
+ns15:hasFrenchShortNameInCapitals rdfs:label "has French short name in capitals" .
+
+ns15:hasLatitude rdfs:label "has latitude" .
+
+ns15:hasLocalShortName rdfs:label "has local short name" .
+
+ns15:hasLongitude rdfs:label "has longitude" .
+
+ns15:hasMaximumLatitude rdfs:label "has maximum latitude" .
+
+ns15:hasMaximumLongitude rdfs:label "has maximum longitude" .
+
+ns15:hasMinimumLatitude rdfs:label "has minimum latitude" .
+
+ns15:hasMinimumLongitude rdfs:label "has minimum longitude" .
+
+ns15:hasNumericRegionCode rdfs:label "has numeric region code" .
+
+ns15:hasPart rdfs:label "has part" .
+
+ns15:hasRemarks rdfs:label "has remarks" .
+
+ns15:hasSubregion rdfs:label "has subregion" .
+
+ns15:isClassifiedBy rdfs:label "is classified by" .
+
+ns15:isIndependent rdfs:label "is independent" .
+
+ns15:isPartOf rdfs:label "is a part of" .
+
+ns15:isSubregionOf rdfs:label "is a subregion of" .
+
+ns15:isUsedBy rdfs:label "is used by" .
+
+ns15:uses rdfs:label "uses" .
+
+ns15:usesAdministrativeLanguage rdfs:label "uses administrative language" .
+
+<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation> rdfs:label "Language Representation Ontology" .
+
+ns4:LanguageVariation rdfs:label "language variation" .
+
+ns4:Transcription rdfs:label "transcription" .
+
+ns4:Transliteration rdfs:label "transliteration" .
+
+ns4:denotes rdfs:label "denotes" .
+
+ns4:has rdfs:label "has" .
+
+ns4:hasDenotation rdfs:label "has denotation" .
+
+ns4:hasEarlierForm rdfs:label "has earlier form" .
+
+ns4:hasEnglishName rdfs:label "has English name" .
+
+ns4:hasFrenchName rdfs:label "has French name" .
+
+ns4:hasGermanName rdfs:label "has German name" .
+
+ns4:hasIndigenousName rdfs:label "has indigenous name" .
+
+ns4:hasMember rdfs:label "has member" .
+
+ns4:hasName rdfs:label "has name" .
+
+ns4:hasTag rdfs:label "has tag" .
+
+ns4:identifies rdfs:label "identifies" .
+
+ns4:isIdentifiedBy rdfs:label "is identified by" .
+
+ns4:isMemberOf rdfs:label "is member of" .
+
+dcterms:LicenseDocument owl2vec:typeOf ns32:MITLicense .
+
+ns32:BibliographicCitation rdfs:label "bibliographic citation" ;
+    rdfs:subClassOf skos:Concept .
+
+ns32:MITLicense a dcterms:LicenseDocument ;
+    rdfs:label "The MIT License" .
+
+ns32:MediaType rdfs:label "MIME MediaType" ;
+    rdfs:subClassOf skos:Concept .
+
+ns32:Module rdfs:label "module" ;
+    rdfs:subClassOf skos:Concept .
+
+ns32:Organization rdfs:label "organization" ;
+    rdfs:subClassOf skos:Concept .
+
+ns32:SpecificationFamily rdfs:label "specification family" ;
+    rdfs:subClassOf skos:Concept .
+
+ns32:TypeOfContent rdfs:label "content type" ;
+    rdfs:subClassOf skos:Concept .
+
+rdf:langString a rdfs:Datatype ;
+    rdfs:label "langString" .
+
+skos:Collection rdfs:label "Collection"@en ;
+    owl2vec:superClassOf skos:OrderedCollection .
+
+skos:ConceptScheme rdfs:label "Concept Scheme"@en ;
+    skos:hasTopConcept skos:Concept .
+
+skos:OrderedCollection rdfs:label "Ordered Collection"@en ;
+    rdfs:subClassOf skos:Collection ;
+    skos:memberList rdf:List .
+
+skos:altLabel a rdf:Property ;
+    rdfs:label "alternative label"@en ;
+    rdfs:comment "The range of skos:altLabel is the class of RDF plain literals."@en,
+        "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."@en .
+
+skos:broadMatch a rdf:Property ;
+    rdfs:label "has broader match"@en .
+
+skos:broader a rdf:Property ;
+    rdfs:label "has broader"@en ;
+    rdfs:comment "Broader concepts are typically rendered as parents in a concept hierarchy (tree)."@en .
+
+skos:broaderTransitive a rdf:Property ;
+    rdfs:label "has broader transitive"@en .
+
+skos:changeNote a rdf:Property ;
+    rdfs:label "change note"@en .
+
+skos:closeMatch a rdf:Property ;
+    rdfs:label "has close match"@en .
+
+skos:definition a rdf:Property ;
+    rdfs:label "definition"@en .
+
+skos:editorialNote a rdf:Property ;
+    rdfs:label "editorial note"@en .
+
+skos:exactMatch a rdf:Property ;
+    rdfs:label "has exact match"@en ;
+    rdfs:comment "skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch."@en .
+
+skos:example a rdf:Property ;
+    rdfs:label "example"@en .
+
+skos:hasTopConcept a rdf:Property ;
+    rdfs:label "has top concept"@en .
+
+skos:hiddenLabel a rdf:Property ;
+    rdfs:label "hidden label"@en ;
+    rdfs:comment "The range of skos:hiddenLabel is the class of RDF plain literals."@en,
+        "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."@en .
+
+skos:historyNote a rdf:Property ;
+    rdfs:label "history note"@en .
+
+skos:inScheme a rdf:Property ;
+    rdfs:label "is in scheme"@en .
+
+skos:mappingRelation a rdf:Property ;
+    rdfs:label "is in mapping relation with"@en ;
+    rdfs:comment "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."@en .
+
+skos:member a rdf:Property ;
+    rdfs:label "has member"@en .
+
+skos:memberList a rdf:Property ;
+    rdfs:label "has member list"@en ;
+    rdfs:comment """For any resource, every item in the list given as the value of the
+      skos:memberList property is also a value of the skos:member property."""@en .
+
+skos:narrowMatch a rdf:Property ;
+    rdfs:label "has narrower match"@en .
+
+skos:narrower a rdf:Property ;
+    rdfs:label "has narrower"@en ;
+    rdfs:comment "Narrower concepts are typically rendered as children in a concept hierarchy (tree)."@en .
+
+skos:narrowerTransitive a rdf:Property ;
+    rdfs:label "has narrower transitive"@en .
+
+skos:notation a rdf:Property ;
+    rdfs:label "notation"@en .
+
+skos:note a rdf:Property ;
+    rdfs:label "note"@en .
+
+skos:prefLabel a rdf:Property ;
+    rdfs:label "preferred label"@en ;
+    rdfs:comment "A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag."@en,
+        "The range of skos:prefLabel is the class of RDF plain literals."@en,
+        """skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
+      disjoint properties."""@en .
+
+skos:related a rdf:Property ;
+    rdfs:label "has related"@en ;
+    rdfs:comment "skos:related is disjoint with skos:broaderTransitive"@en .
+
+skos:relatedMatch a rdf:Property ;
+    rdfs:label "has related match"@en .
+
+skos:scopeNote a rdf:Property ;
+    rdfs:label "scope note"@en .
+
+skos:semanticRelation a rdf:Property ;
+    rdfs:label "is in semantic relation with"@en .
+
+skos:topConceptOf a rdf:Property ;
+    rdfs:label "is top concept in scheme"@en .
+
+ns3:JointStockCompany rdfs:label "joint stock company" ;
+    rdfs:subClassOf ns10:BusinessEntity .
+
+ns3:PrivatelyHeldCompany rdfs:label "privately held company" ;
+    rdfs:subClassOf ns30:StockCorporation .
+
+ns3:PubliclyHeldCompany rdfs:label "publicly held company" ;
+    rdfs:subClassOf ns30:StockCorporation .
+
+ns3:ReligiousCorporation rdfs:label "religious corporation" ;
+    rdfs:subClassOf ns30:NotForProfitCorporation ;
+    ns19:hasObjective ns10:ReligiousObjective .
+
+ns30:BenefitCorporation rdfs:label "benefit corporation" ;
+    rdfs:subClassOf ns30:NotForProfitCorporation .
+
+ns30:CommonInterestDevelopmentCorporation rdfs:label "common interest development corporation" ;
+    rdfs:subClassOf ns30:NotForProfitCorporation .
+
+ns30:ForProfitCorporation rdfs:label "for profit corporation" ;
+    rdfs:subClassOf ns30:Corporation ;
+    ns19:hasObjective ns10:ProfitObjective .
+
+ns30:IncorporationGuarantee rdfs:label "incorporation guarantee" ;
+    rdfs:subClassOf ns2:Constitution ;
+    ns17:hasNotionalAmount ns17:MonetaryAmount .
+
+ns24:Branch rdfs:label "branch" ;
+    rdfs:subClassOf ns26:OrganizationalSubUnit .
+
+ns24:Division rdfs:label "division" ;
+    rdfs:subClassOf ns26:OrganizationalSubUnit .
+
+ns24:JointVenture rdfs:label "joint venture" ;
+    rdfs:subClassOf ns10:LegalEntity .
+
+ns24:NonGovernmentalOrganization rdfs:label "non-governmental organization" ;
+    rdfs:subClassOf ns24:NotForProfitOrganization ;
+    ns19:hasObjective ns10:PublicPurpose .
+
+ns10:BusinessLicense rdfs:label "business license" ;
+    rdfs:subClassOf ns6:License ;
+    ns10:isRecognizedIn ns20:Jurisdiction ;
+    ns5:appliesTo ns10:BusinessEntity .
+
+ns10:CharteredLegalPerson rdfs:label "chartered legal person" ;
+    rdfs:subClassOf ns10:LegalEntity .
+
+ns10:PowerOfAttorney rdfs:label "power of attorney" ;
+    rdfs:subClassOf ns6:LegalCapacity ;
+    ns7:hasEffectiveDate ns12:Date ;
+    ns5:isConferredOn ns10:LegallyCompetentNaturalPerson .
+
+ns10:SpecialPurposeVehicle rdfs:label "special purpose vehicle"@en ;
+    rdfs:subClassOf ns10:LegalEntity .
+
+ns10:StatutoryBody rdfs:label "statutory body" ;
+    rdfs:subClassOf ns10:LegalEntity .
+
+ns10:VariableInterestEntity rdfs:label "variable interest entity"@en ;
+    rdfs:subClassOf ns10:LegalEntity .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/CapitalSurplus> rdfs:label "capital surplus" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PaidInCapital> .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset> rdfs:label "financial asset" ;
+    rdfs:subClassOf ns11:TangibleAsset .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/Income> rdfs:label "income"@en ;
+    rdfs:subClassOf ns17:MonetaryAmount ;
+    ns12:hasDatePeriod ns12:DatePeriod .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PhysicalAsset> rdfs:label "physical asset" ;
+    rdfs:subClassOf ns11:TangibleAsset .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/ShareholdersEquity> rdfs:label "shareholders' equity" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity> .
+
+ns17:AmountOfMoney rdfs:label "amount of money" ;
+    rdfs:subClassOf ns13:QuantityValue ;
+    ns17:hasCurrency ns17:Currency .
+
+ns17:CalculatedPrice rdfs:label "calculated price" ;
+    rdfs:subClassOf ns17:MonetaryPrice ;
+    ns16:hasFormula ns16:Formula .
+
+ns17:ExchangeRate rdfs:label "exchange rate" ;
+    rdfs:subClassOf ns16:RatioValue ;
+    ns17:hasBaseCurrency ns17:Currency ;
+    ns17:hasDealtCurrency ns17:Currency .
+
+ns17:InterestRate rdfs:label "interest rate" ;
+    rdfs:subClassOf ns17:PercentageMonetaryAmount .
+
+ns17:MonetaryMeasure rdfs:label "monetary measure" ;
+    rdfs:subClassOf ns16:Measure .
+
+ns28:AutomatedSystem rdfs:label "automated system" ;
+    rdfs:subClassOf ns28:AutonomousAgent .
+
+ns8:EmancipatedMinor rdfs:label "emancipated minor" ;
+    rdfs:subClassOf ns8:Minor .
+
+ns8:IncapacitatedAdult rdfs:label "incapacitated adult" ;
+    rdfs:subClassOf ns8:Adult .
+
+ns8:LegalWorkingAgePerson rdfs:label "legal working age person" ;
+    rdfs:subClassOf ns8:Person ;
+    ns8:hasMinimumLegalWorkingAge ns8:LegalWorkingAge .
+
+ns8:LegallyCapableAdult rdfs:label "legally capable adult" ;
+    rdfs:subClassOf ns8:Adult .
+
+ns31:CommitmentAtLarge rdfs:label "commitment at large" ;
+    rdfs:subClassOf ns31:UnilateralCommitment .
+
+ns31:IndividualUnilateralCommitment rdfs:label "individual unilateral commitment" ;
+    rdfs:subClassOf ns31:UnilateralCommitment .
+
+ns7:BreachOfContract rdfs:label "breach of contract"@en ;
+    rdfs:subClassOf ns21:OccurrenceKind ;
+    ns5:appliesTo ns7:Contract ;
+    ns5:refersTo ns7:ContractualCommitment .
+
+ns7:BreachOfCovenant rdfs:label "breach of covenant"@en ;
+    rdfs:subClassOf ns21:OccurrenceKind ;
+    ns5:appliesTo ns7:Contract ;
+    ns5:refersTo ns7:ContractualCommitment .
+
+ns7:ConditionPrecedent rdfs:label "condition precedent" ;
+    rdfs:subClassOf ns7:ContractualElement .
+
+ns7:ContractualDefinition rdfs:label "contractual definition" ;
+    rdfs:subClassOf ns7:ContractualElement .
+
+ns7:NovateableContract rdfs:label "novateable contract" ;
+    rdfs:subClassOf ns7:TransferableContract .
+
+ns7:Representation rdfs:label "representation"@en ;
+    rdfs:subClassOf ns7:ContractualCommitment .
+
+ns7:TermSheet rdfs:label "term sheet" ;
+    rdfs:subClassOf ns31:Agreement ;
+    ns7:hasNonBindingTerm ns7:NonBindingTerm .
+
+ns7:TerminationProvision rdfs:label "termination provision"@en ;
+    rdfs:subClassOf ns7:ContractualCommitment .
+
+ns7:VerbalContract rdfs:label "verbal contract" ;
+    rdfs:subClassOf ns7:Contract .
+
+ns7:Warranty rdfs:label "warranty"@en ;
+    rdfs:subClassOf ns7:ContractualCommitment .
+
+ns23:Notice rdfs:label "notice" ;
+    rdfs:subClassOf ns23:Document .
+
+ns23:Record rdfs:label "record" ;
+    rdfs:subClassOf ns4:Collection .
+
+ns23:ReferenceDocument rdfs:label "reference document" ;
+    rdfs:subClassOf ns23:Document .
+
+ns18:ReassignableIdentifier rdfs:label "reassignable identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns18:hasAssignmentTerminationDate ns12:CombinedDateTime ;
+    ns18:hasInitialAssignmentDate ns12:CombinedDateTime .
+
+ns9:BusinessDayFollowing a ns9:BusinessDayConvention ;
+    rdfs:label "business day following" .
+
+ns9:BusinessDayModifiedFollowing a ns9:BusinessDayConvention ;
+    rdfs:label "business day modified following" .
+
+ns9:BusinessDayModifiedPreceding a ns9:BusinessDayConvention ;
+    rdfs:label "business day modified preceding" .
+
+ns9:BusinessDayNearest a ns9:BusinessDayConvention ;
+    rdfs:label "business day nearest" .
+
+ns9:BusinessDayNone a ns9:BusinessDayConvention ;
+    rdfs:label "business day none" .
+
+ns9:BusinessDayPreceding a ns9:BusinessDayConvention ;
+    rdfs:label "business day preceding" .
+
+ns9:DayOfMonth rdfs:label "day of month" ;
+    rdfs:subClassOf ns9:BusinessRecurrenceInterval .
+
+ns9:DayOfWeek rdfs:label "day of the week" ;
+    rdfs:subClassOf ns9:BusinessRecurrenceInterval .
+
+ns9:EndOfMonth rdfs:label "end of the month" ;
+    rdfs:subClassOf ns9:BusinessRecurrenceInterval .
+
+ns12:CalendarMonth a ns12:CalendarPeriod ;
+    rdfs:label "calendar month" .
+
+ns12:CalendarQuarter a ns12:CalendarPeriod ;
+    rdfs:label "calendar quarter" .
+
+ns12:CalendarSpecifiedInterval rdfs:label "calendar-specified interval" ;
+    rdfs:subClassOf ns12:RecurrenceInterval ;
+    ns12:hasCalendarPeriod ns12:CalendarPeriod ;
+    ns12:hasTimeDirection ns12:TimeDirection .
+
+ns12:CalendarWeek a ns12:CalendarPeriod ;
+    rdfs:label "calendar week" .
+
+ns12:CalendarYear a ns12:CalendarPeriod ;
+    rdfs:label "calendar year" .
+
+ns12:DateTime rdfs:label "date time" ;
+    rdfs:subClassOf ns12:TimeInstant .
+
+ns12:Friday a ns12:TimeInterval ;
+    rdfs:label "Friday" .
+
+ns12:FromEnd a ns12:TimeDirection ;
+    rdfs:label "from the end" .
+
+ns12:FromStart a ns12:TimeDirection ;
+    rdfs:label "from the start" .
+
+ns12:Monday a ns12:TimeInterval ;
+    rdfs:label "Monday" .
+
+ns12:RelativeDate rdfs:label "relative date" ;
+    rdfs:subClassOf ns12:CalculatedDate ;
+    ns12:isRelativeTo ns12:Date .
+
+ns12:Saturday a ns12:TimeInterval ;
+    rdfs:label "Saturday" .
+
+ns12:SpecifiedDate rdfs:label "specified date" ;
+    rdfs:subClassOf ns12:CalculatedDate .
+
+ns12:Sunday a ns12:TimeInterval ;
+    rdfs:label "Sunday" .
+
+ns12:Thursday a ns12:TimeInterval ;
+    rdfs:label "Thursday" .
+
+ns12:TimeOfDay rdfs:label "time of day" ;
+    rdfs:subClassOf ns12:TimeInstant .
+
+ns12:Tuesday a ns12:TimeInterval ;
+    rdfs:label "Tuesday" .
+
+ns12:Wednesday a ns12:TimeInterval ;
+    rdfs:label "Wednesday" .
+
+ns21:OccurrenceBasedDate rdfs:label "occurrence-based date" ;
+    rdfs:subClassOf ns12:CalculatedDate ;
+    ns21:isTriggeredBy ns21:OccurrenceKind .
+
+ns19:DistributionStrategy rdfs:label "distribution strategy" ;
+    rdfs:subClassOf ns19:Strategy .
+
+ns19:InvestmentObjective rdfs:label "investment objective" ;
+    rdfs:subClassOf ns19:FinancialObjective .
+
+ns19:Program owl2vec:superClassOf ns16:StatisticalProgram ;
+    ns19:hasGoal ns19:Goal ;
+    ns19:hasObjective ns19:Objective .
+
+ns19:SalesStrategy rdfs:label "sales strategy" ;
+    rdfs:subClassOf ns19:BusinessStrategy .
+
+ns6:Claim rdfs:label "claim"@en ;
+    rdfs:subClassOf ns6:LegalConstruct .
+
+ns6:ContractualCapability rdfs:label "contractual capability"@en ;
+    rdfs:subClassOf ns6:LegalCapacity .
+
+ns6:ContractualOption rdfs:label "contractual option" ;
+    rdfs:subClassOf ns6:ContractualRight .
+
+ns6:DelegatedLegalAuthority rdfs:label "delegated legal authority" ;
+    rdfs:subClassOf ns6:LegalCapacity .
+
+ns6:LiabilityCapacity rdfs:label "liability capacity"@en ;
+    rdfs:subClassOf ns6:LegalCapacity .
+
+ns6:LitigationCapacity rdfs:label "litigation capacity" ;
+    rdfs:subClassOf ns6:LegalCapacity .
+
+ns6:ReportingPolicy rdfs:label "reporting policy" ;
+    rdfs:subClassOf ns6:Policy .
+
+ns6:SignatoryCapacity rdfs:label "signatory capacity" ;
+    rdfs:subClassOf ns6:LegalCapacity .
+
+ns2:CourtOfLaw rdfs:label "court of law" ;
+    rdfs:subClassOf ns14:FormalOrganization .
+
+ns14:InformalOrganization rdfs:label "informal organization" ;
+    rdfs:subClassOf ns26:Organization .
+
+ns11:IntangibleAsset rdfs:label "intangible asset" ;
+    rdfs:subClassOf ns11:Asset .
+
+ns1:Apartment a ns1:SecondaryUnitDesignator ;
+    rdfs:label "apartment"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Basement a ns1:SecondaryUnitDesignator ;
+    rdfs:label "basement"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Building a ns1:SecondaryUnitDesignator ;
+    rdfs:label "building"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Department a ns1:SecondaryUnitDesignator ;
+    rdfs:label "department"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Floor a ns1:SecondaryUnitDesignator ;
+    rdfs:label "floor"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Front a ns1:SecondaryUnitDesignator ;
+    rdfs:label "front"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Hangar a ns1:SecondaryUnitDesignator ;
+    rdfs:label "hanger"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Key a ns1:SecondaryUnitDesignator ;
+    rdfs:label "key"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Lobby a ns1:SecondaryUnitDesignator ;
+    rdfs:label "lobby"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Lot a ns1:SecondaryUnitDesignator ;
+    rdfs:label "lot"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Lower a ns1:SecondaryUnitDesignator ;
+    rdfs:label "lower"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Office a ns1:SecondaryUnitDesignator ;
+    rdfs:label "office"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Penthouse a ns1:SecondaryUnitDesignator ;
+    rdfs:label "penthouse"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Pier a ns1:SecondaryUnitDesignator ;
+    rdfs:label "pier"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Rear a ns1:SecondaryUnitDesignator ;
+    rdfs:label "rear"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Room a ns1:SecondaryUnitDesignator ;
+    rdfs:label "room"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Side a ns1:SecondaryUnitDesignator ;
+    rdfs:label "side"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:Slip a ns1:SecondaryUnitDesignator ;
+    rdfs:label "slip"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Space a ns1:SecondaryUnitDesignator ;
+    rdfs:label "space"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Stop a ns1:SecondaryUnitDesignator ;
+    rdfs:label "stop"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Suite a ns1:SecondaryUnitDesignator ;
+    rdfs:label "suite"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Trailer a ns1:SecondaryUnitDesignator ;
+    rdfs:label "trailer"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Unit a ns1:SecondaryUnitDesignator ;
+    rdfs:label "unit"@en ;
+    ns1:requiresSecondaryUnitRange true .
+
+ns1:Upper a ns1:SecondaryUnitDesignator ;
+    rdfs:label "upper"@en ;
+    ns1:requiresSecondaryUnitRange false .
+
+ns1:VirtualAddress rdfs:label "virtual address" ;
+    rdfs:subClassOf ns1:Address .
+
+ns25:County rdfs:label "county"@en ;
+    rdfs:subClassOf ns15:CountrySubdivision .
+
+ns25:FederalCapitalArea rdfs:label "federal capital area" ;
+    rdfs:subClassOf ns15:GeopoliticalEntity .
+
+ns25:FederalState rdfs:label "federal state" ;
+    rdfs:subClassOf ns15:CountrySubdivision .
+
+ns25:Parcel rdfs:label "parcel"@en ;
+    rdfs:subClassOf ns15:GeographicRegion .
+
+ns25:PopulatedPlace rdfs:label "populated place" ;
+    rdfs:subClassOf ns25:PhysicalLocation .
+
+ns25:RealEstate rdfs:label "real estate"@en ;
+    rdfs:subClassOf ns25:PhysicalLocation .
+
+ns13:DerivedUnit rdfs:label "derived unit" ;
+    rdfs:subClassOf ns13:MeasurementUnit ;
+    ns13:hasFactor ns13:UnitFactor ;
+    ns13:isDerivedFrom ns13:BaseUnit .
+
+ns16:AnnualizedStandardDeviation rdfs:label "annualized standard deviation" ;
+    rdfs:subClassOf ns16:StandardDeviation ;
+    ns16:hasReferencePeriod ns12:ExplicitRecurrenceInterval .
+
+ns16:ArithmeticMean rdfs:label "arithmetic mean" ;
+    rdfs:subClassOf ns16:Mean .
+
+ns16:AverageAbsoluteDeviation rdfs:label "average absolute deviation" ;
+    rdfs:subClassOf ns16:Dispersion ;
+    ns16:hasArgument ns16:Mean,
+        ns16:Median .
+
+ns16:GeometricMean rdfs:label "geometric mean" ;
+    rdfs:subClassOf ns16:Mean .
+
+ns16:MedianAbsoluteDeviation rdfs:label "median absolute deviation" ;
+    rdfs:subClassOf ns16:Dispersion ;
+    ns16:hasArgument ns16:Median .
+
+ns16:NumericIndexValue rdfs:label "numeric index value" ;
+    rdfs:subClassOf ns13:QuantityValue ;
+    ns16:hasMeasurementDateTime ns12:CombinedDateTime ;
+    ns16:isValueOf ns16:ScopedMeasure .
+
+ns16:SamplingVariance rdfs:label "sampling variance" ;
+    rdfs:subClassOf ns16:Variance .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Informative> a <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel> ;
+    rdfs:label "informative" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional> a <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel> ;
+    rdfs:label "provisional" .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release> a <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel> ;
+    rdfs:label "release" .
+
+ns15:Alpha2Code rdfs:label "alpha-2 code" ;
+    rdfs:subClassOf ns15:GeographicRegionIdentifier .
+
+ns15:Alpha3Code rdfs:label "alpha-3 code" ;
+    rdfs:subClassOf ns15:GeographicRegionIdentifier .
+
+ns15:GeographicCoordinateSystem rdfs:label "geographic coordinate system" ;
+    rdfs:subClassOf ns15:CoordinateSystem .
+
+ns15:Territory rdfs:label "territory" ;
+    rdfs:subClassOf ns15:GeopoliticalEntity .
+
+ns4:Alpha2Code rdfs:label "alpha-2 code" ;
+    rdfs:subClassOf ns4:LanguageIdentifier .
+
+ns4:AncientLanguage rdfs:label "ancient language" ;
+    rdfs:subClassOf ns4:ExtinctLanguage .
+
+ns4:ArtificialLanguage rdfs:label "artificial language" ;
+    rdfs:subClassOf ns4:Language .
+
+ns4:Dialect rdfs:label "dialect" ;
+    rdfs:subClassOf ns4:LanguageVariant .
+
+ns4:HistoricalLanguage rdfs:label "historical language" ;
+    rdfs:subClassOf ns4:Language .
+
+ns4:LanguageFamily rdfs:label "language family" ;
+    rdfs:subClassOf ns4:LanguageGroup .
+
+ns4:LivingLanguage rdfs:label "living language" ;
+    rdfs:subClassOf ns4:Language .
+
+ns4:NaturalLanguage rdfs:label "natural language" ;
+    rdfs:subClassOf ns4:Language .
+
+ns4:RemainderGroup rdfs:label "remainder group" ;
+    rdfs:subClassOf ns4:LanguageGroup .
+
+ns4:SpokenLanguage rdfs:label "spoken language" ;
+    rdfs:subClassOf ns4:Language .
+
+ns4:StandardVariant rdfs:label "standard variant" ;
+    rdfs:subClassOf ns4:LanguageVariant .
+
+ns4:WritingSystem rdfs:label "writing system" ;
+    rdfs:subClassOf ns4:Arrangement ;
+    ns4:has ns4:Orthography,
+        ns4:Script .
+
+ns4:WrittenLanguage rdfs:label "written language" ;
+    rdfs:subClassOf ns4:Language .
+
+ns32:IssueResolution rdfs:label "issue resolution" ;
+    ns32:isReflectedIn ns32:SpecificationVersion ;
+    rdfs:subClassOf skos:Concept .
+
+ns32:Specification rdfs:label "specification" ;
+    ns32:hasSpecificationVersion ns32:SpecificationVersion ;
+    rdfs:subClassOf skos:Concept ;
+    skos:altLabel "spec"^^xsd:string .
+
+ns3:BoardAgreement rdfs:label "board agreement" ;
+    rdfs:subClassOf ns24:OrganizationCoveringAgreement ;
+    ns5:governs ns30:StockCorporation .
+
+ns3:RegistrationIdentifierScheme rdfs:label "registration identifier scheme" ;
+    rdfs:subClassOf ns26:OrganizationIdentificationScheme ;
+    ns5:defines ns3:RegistrationIdentifier .
+
+ns24:ValueAddedTaxIdentificationNumber rdfs:label "value-added tax identification number" ;
+    rdfs:subClassOf ns26:OrganizationIdentifier,
+        ns29:TaxIdentifier .
+
+ns10:PublicPurpose rdfs:label "public purpose" ;
+    rdfs:subClassOf ns19:Objective .
+
+ns17:PercentageMonetaryAmount rdfs:label "percentage monetary amount" ;
+    owl2vec:superClassOf ns17:InterestRate ;
+    rdfs:subClassOf ns16:Percentage ;
+    ns17:hasCurrency ns17:Currency .
+
+ns17:PreciousMetal rdfs:label "precious metal" ;
+    ns4:hasDenotation ns17:PreciousMetalIdentifier ;
+    ns4:isIdentifiedBy ns17:PreciousMetalIdentifier .
+
+ns8:AgeOfMajority rdfs:label "age of majority" ;
+    rdfs:subClassOf ns8:LegalAge .
+
+ns8:BirthCertificateIdentificationScheme rdfs:label "birth certificate identification scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns5:defines ns8:BirthCertificateIdentifier .
+
+ns8:DeathCertificateIdentificationScheme rdfs:label "death certificate identification scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns5:defines ns8:DeathCertificateIdentifier .
+
+ns8:DriversLicense rdfs:label "driver's license" ;
+    rdfs:subClassOf ns8:IdentityDocument ;
+    ns4:isIdentifiedBy ns8:DriversLicenseIdentifier .
+
+ns8:DriversLicenseIdentificationScheme rdfs:label "driver's license identification scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns5:defines ns8:DriversLicenseIdentifier .
+
+ns8:LegalWorkingAge rdfs:label "legal working age" ;
+    rdfs:subClassOf ns8:LegalAge .
+
+ns8:Minor rdfs:label "minor" ;
+    owl2vec:superClassOf ns8:EmancipatedMinor ;
+    rdfs:subClassOf ns8:Person .
+
+ns8:Passport rdfs:label "passport" ;
+    rdfs:subClassOf ns8:IdentityDocument ;
+    ns5:comprises ns8:PassportNumber .
+
+ns31:Beneficiary rdfs:label "beneficiary" ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole .
+
+ns31:Obligee rdfs:label "obligee" ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole .
+
+ns7:AssignableContract rdfs:label "assignable contract" ;
+    rdfs:subClassOf ns7:Contract,
+        ns7:TransferableContract .
+
+ns7:ContractDocument rdfs:label "contract document" ;
+    rdfs:subClassOf ns23:LegalDocument ;
+    ns7:isEvidenceFor ns7:WrittenContract .
+
+ns7:ContractThirdParty rdfs:label "contract third party" ;
+    rdfs:subClassOf ns29:PartyInRole .
+
+ns7:ExtensionProvision rdfs:label "extension provision" ;
+    rdfs:subClassOf ns7:ContractualCommitment ;
+    ns7:hasExtendablePeriod ns12:ExplicitDatePeriod .
+
+ns7:UnilateralContract rdfs:label "unilateral contract" ;
+    rdfs:subClassOf ns7:Contract ;
+    ns5:confers ns31:UnilateralCommitment .
+
+ns27:CollectionConstituent rdfs:label "collection constituent" ;
+    owl2vec:superClassOf ns12:DatedCollectionConstituent ;
+    ns27:isConstituentOf ns4:Collection .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassificationScheme> rdfs:label "industry sector classification scheme" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme> ;
+    ns5:defines <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier> .
+
+ns9:BusinessRecurrenceIntervalConvention rdfs:label "business recurrence interval convention" ;
+    rdfs:subClassOf ns9:Convention .
+
+ns12:AdHocScheduleEntry rdfs:label "ad hoc schedule entry" ;
+    rdfs:subClassOf ns12:DatedCollectionConstituent ;
+    ns27:isConstituentOf ns12:AdHocSchedule ;
+    ns21:hasOccurrence ns21:Occurrence .
+
+ns12:Day a ns12:Duration,
+        ns12:ExplicitDuration ;
+    rdfs:label "day"@en ;
+    ns12:hasDurationValue "P1D" .
+
+ns12:RegularSchedule rdfs:label "regular schedule" ;
+    rdfs:subClassOf ns12:Schedule ;
+    ns9:hasBusinessDayAdjustment ns9:BusinessDayAdjustment ;
+    ns12:hasFinalStub ns12:ScheduleStub ;
+    ns12:hasInitialStub ns12:ScheduleStub ;
+    ns12:hasRecurrenceInterval ns12:RecurrenceInterval ;
+    ns12:hasRecurrenceStartDate ns12:Date ;
+    ns12:hasStub ns12:ScheduleStub ;
+    ns21:hasOccurrence ns21:Occurrence ;
+    ns5:comprises ns21:OccurrenceKind .
+
+ns19:BusinessStrategy rdfs:label "business strategy" ;
+    owl2vec:superClassOf ns19:SalesStrategy ;
+    rdfs:subClassOf ns19:Strategy ;
+    ns19:hasObjective ns19:BusinessObjective .
+
+ns19:FinancialObjective rdfs:label "financial objective" ;
+    owl2vec:superClassOf ns19:InvestmentObjective ;
+    rdfs:subClassOf ns19:Objective .
+
+ns6:ContingentRight rdfs:label "contingent right"@en ;
+    rdfs:subClassOf ns6:Right ;
+    ns6:implies ns6:ContingentObligation ;
+    ns5:isConferredOn ns29:IndependentParty .
+
+ns6:LicenseIdentifier rdfs:label "license identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns4:identifies ns6:License .
+
+ns14:Group rdfs:label "group" ;
+    rdfs:subClassOf ns4:Collection ;
+    ns4:hasMember ns28:AutonomousAgent .
+
+ns26:OrganizationPartIdentifier rdfs:label "organization part identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns4:identifies ns26:OrganizationalSubUnit .
+
+ns29:TaxIdentificationScheme rdfs:label "tax identification scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns20:appliesIn ns20:Jurisdiction ;
+    ns4:hasMember ns29:TaxIdentifier .
+
+ns22:AgentInRole rdfs:label "agent-in-role" ;
+    owl2vec:superClassOf ns29:PartyInRole ;
+    rdfs:subClassOf ns22:ThingInRole ;
+    ns5:hasIdentity ns28:AutonomousAgent .
+
+ns1:PostOfficeBoxAddress rdfs:label "post office box address" ;
+    rdfs:subClassOf ns1:PhysicalAddress ;
+    ns5:comprises ns1:PostOfficeBox .
+
+ns1:PostOfficeBoxDesignator rdfs:label "post office box designator"@en ;
+    rdfs:subClassOf ns1:SupplementalAddressDesignator ;
+    ns5:isIncludedIn ns1:PostOfficeBox .
+
+ns1:PostdirectionalSymbol rdfs:label "postdirectional symbol" ;
+    rdfs:subClassOf ns1:GeographicDirectionalSymbol .
+
+ns1:PredirectionalSymbol rdfs:label "predirectional symbol" ;
+    rdfs:subClassOf ns1:GeographicDirectionalSymbol .
+
+ns1:PrimaryAddressNumber rdfs:label "primary address number" ;
+    rdfs:subClassOf ns1:AddressComponent .
+
+ns1:RegionSpecificIdentifier rdfs:label "region-specific identifier" ;
+    rdfs:subClassOf ns15:GeographicRegionIdentifier ;
+    ns17:isTenderIn ns15:GeopoliticalEntity ;
+    ns15:isUsedBy ns15:GeopoliticalEntity .
+
+ns1:SecondaryUnitIndicator rdfs:label "secondary unit indicator" ;
+    rdfs:subClassOf ns1:AddressComponent ;
+    ns5:isIncludedIn ns1:SecondaryUnit .
+
+ns1:StreetAddress rdfs:label "street address" ;
+    rdfs:subClassOf ns1:AddressComponent ;
+    ns1:hasPostdirectionalSymbol ns1:PostdirectionalSymbol ;
+    ns1:hasPredirectionalSymbol ns1:PredirectionalSymbol ;
+    ns1:hasPrimaryAddressNumber ns1:PrimaryAddressNumber ;
+    ns1:hasSecondaryUnit ns1:SecondaryUnit ;
+    ns1:hasStreetName ns1:StreetName ;
+    ns1:hasStreetSuffix ns1:StreetSuffix .
+
+ns1:StreetName rdfs:label "street name" ;
+    rdfs:subClassOf ns1:AddressComponent .
+
+ns1:StructureName rdfs:label "structure name" ;
+    rdfs:subClassOf ns1:AddressComponent .
+
+ns1:SupplementalAddressUnit rdfs:label "supplemental address unit" ;
+    rdfs:subClassOf ns1:AddressComponent ;
+    ns5:isIncludedIn ns1:SupplementalAddressComponent .
+
+ns25:BusinessCenter rdfs:label "business center" ;
+    rdfs:subClassOf ns25:Municipality .
+
+ns13:BaseUnit rdfs:label "base unit" ;
+    rdfs:subClassOf ns13:MeasurementUnit .
+
+ns13:Dimensionality rdfs:label "dimensionality" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns13:hasFactor ns13:QuantityKindFactor .
+
+ns13:Quantity rdfs:label "quantity" ;
+    owl2vec:superClassOf ns13:MeasurementUnit ;
+    rdfs:subClassOf ns16:Measure ;
+    ns13:hasQuantityKind ns13:QuantityKind .
+
+ns13:UnitFactor rdfs:label "unit factor" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns13:hasMeasurementUnit ns13:MeasurementUnit .
+
+ns16:Difference rdfs:label "difference" ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure .
+
+ns16:Formula rdfs:label "formula" ;
+    rdfs:subClassOf ns5:Reference ;
+    ns16:hasExpression ns16:Expression .
+
+ns16:Percentage rdfs:label "percentage" ;
+    owl2vec:superClassOf ns17:PercentageMonetaryAmount ;
+    rdfs:subClassOf ns16:RatioValue .
+
+ns16:QualifiedMeasure rdfs:label "qualified measure" ;
+    owl2vec:superClassOf ns16:ScopedMeasure ;
+    rdfs:subClassOf ns16:StatisticalMeasure ;
+    ns16:hasAnchorDate ns12:ExplicitDate .
+
+ns16:Ratio rdfs:label "ratio" ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure .
+
+ns16:ScopedMeasure rdfs:label "scoped measure" ;
+    rdfs:subClassOf ns16:QualifiedMeasure ;
+    ns25:hasCoverageArea ns16:StatisticalArea ;
+    ns5:appliesTo ns16:FinitePopulation ;
+    ns16:hasPeriodicity ns12:RecurrenceInterval .
+
+ns16:StandardDeviation rdfs:label "standard deviation" ;
+    owl2vec:superClassOf ns16:AnnualizedStandardDeviation ;
+    rdfs:subClassOf ns16:Dispersion ;
+    ns16:hasArgument ns16:Mean,
+        ns16:Variance .
+
+ns16:StatisticalAreaIdentifier rdfs:label "statistical area identifier" ;
+    rdfs:subClassOf ns15:GeographicRegionIdentifier ;
+    ns4:identifies ns16:StatisticalArea .
+
+ns16:Total rdfs:label "total" ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure .
+
+ns16:WeightingFunction rdfs:label "weighting function" ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure .
+
+ns15:CoordinateSystem rdfs:label "coordinate system" ;
+    owl2vec:superClassOf ns15:GeographicCoordinateSystem ;
+    rdfs:subClassOf ns4:Arrangement .
+
+ns4:BibliographicCode rdfs:label "bibliographic code" ;
+    rdfs:subClassOf ns4:Alpha3Code,
+        ns4:LanguageIdentifier .
+
+ns4:ExtinctLanguage rdfs:label "extinct language" ;
+    owl2vec:superClassOf ns4:AncientLanguage ;
+    rdfs:subClassOf ns4:Language .
+
+ns4:Orthography rdfs:label "orthography" ;
+    rdfs:subClassOf ns4:Collection .
+
+ns4:Script rdfs:label "script" ;
+    rdfs:subClassOf ns4:Collection .
+
+ns4:TerminologyCode rdfs:label "terminology code" ;
+    rdfs:subClassOf ns4:Alpha3Code,
+        ns4:LanguageIdentifier .
+
+ns32:SpecificationVersion rdfs:label "specification version" ;
+    ns32:isVersionOf ns32:Specification ;
+    ns32:reflects ns32:IssueResolution ;
+    rdfs:subClassOf skos:Concept .
+
+rdfs:Datatype owl2vec:typeOf rdf:langString,
+        ns28:Text,
+        ns12:CombinedDateTime .
+
+ns30:InstrumentOfIncorporation rdfs:label "instrument of incorporation" ;
+    rdfs:subClassOf ns2:Constitution ;
+    ns5:isGovernedBy ns20:Jurisdiction .
+
+ns24:NotForProfitOrganization rdfs:label "not for profit organization" ;
+    owl2vec:superClassOf ns30:NotForProfitCorporation,
+        ns24:NonGovernmentalOrganization ;
+    rdfs:subClassOf ns14:FormalOrganization ;
+    ns19:hasObjective ns10:NotForProfitObjective .
+
+ns24:OrganizationCoveringAgreement rdfs:label "organization covering agreement" ;
+    owl2vec:superClassOf ns3:BoardAgreement ;
+    rdfs:subClassOf ns7:WrittenContract ;
+    ns5:governs ns10:LegalEntity .
+
+ns10:NotForProfitObjective rdfs:label "not for profit objective" ;
+    owl2vec:superClassOf ns10:ReligiousObjective ;
+    rdfs:subClassOf ns19:Objective .
+
+ns10:ProfitObjective rdfs:label "profit objective" ;
+    rdfs:subClassOf ns19:BusinessObjective,
+        ns19:Objective .
+
+ns10:ReligiousObjective rdfs:label "religious objective" ;
+    rdfs:subClassOf ns10:NotForProfitObjective,
+        ns19:Objective .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/RetainedEarnings> rdfs:label "retained earnings" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity>,
+        ns16:Variable .
+
+ns17:CurrencyBasket rdfs:label "currency basket" ;
+    rdfs:subClassOf ns27:StructuredCollection,
+        ns4:Collection ;
+    ns27:hasConstituent ns17:Currency .
+
+ns17:Funds rdfs:label "funds" ;
+    rdfs:subClassOf ns17:Currency ;
+    ns17:hasCurrency ns17:Currency ;
+    ns4:hasDenotation ns17:FundsIdentifier ;
+    ns4:isIdentifiedBy ns17:FundsIdentifier .
+
+ns17:Price rdfs:label "price" ;
+    owl2vec:superClassOf ns17:MonetaryPrice,
+        ns17:UnitPrice ;
+    rdfs:subClassOf ns13:QuantityValue .
+
+ns17:UnitOfAccount rdfs:label "unit of account" ;
+    rdfs:subClassOf ns17:Currency ;
+    ns4:hasDenotation ns17:UnitOfAccountIdentifier ;
+    ns4:isIdentifiedBy ns17:UnitOfAccountIdentifier .
+
+ns17:UnitPrice rdfs:label "unit price" ;
+    rdfs:subClassOf ns17:MonetaryPrice,
+        ns17:Price ;
+    ns17:isPriceFor owl:Thing .
+
+ns8:Adult rdfs:label "adult" ;
+    owl2vec:superClassOf ns8:IncapacitatedAdult,
+        ns8:LegallyCapableAdult ;
+    rdfs:subClassOf ns8:Person ;
+    ns8:hasAgeOfMajority ns8:AgeOfMajority .
+
+ns8:BirthCertificateIdentifier rdfs:label "birth certificate identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns5:isDefinedIn ns8:BirthCertificateIdentificationScheme ;
+    ns4:identifies ns8:BirthCertificate .
+
+ns8:DateOfBirth rdfs:label "date of birth" ;
+    rdfs:subClassOf ns12:ExplicitDate ;
+    ns7:isEvidencedBy ns8:IdentityDocument .
+
+ns8:DateOfDeath rdfs:label "date of death" ;
+    rdfs:subClassOf ns12:ExplicitDate ;
+    ns7:isEvidencedBy ns8:DeathCertificate .
+
+ns8:DeathCertificateIdentifier rdfs:label "death certificate identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns5:isDefinedIn ns8:DeathCertificateIdentificationScheme ;
+    ns4:identifies ns8:DeathCertificate .
+
+ns8:DriversLicenseIdentifier rdfs:label "driver's license identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns5:isDefinedIn ns8:DriversLicenseIdentificationScheme ;
+    ns4:identifies ns8:DriversLicense .
+
+ns8:LegalAge rdfs:label "legal age" ;
+    owl2vec:superClassOf ns8:AgeOfMajority,
+        ns8:LegalWorkingAge ;
+    rdfs:subClassOf ns12:Age ;
+    ns20:appliesIn ns20:Jurisdiction .
+
+ns8:NationalIdentificationNumberScheme rdfs:label "national identification number scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns5:defines ns8:NationalIdentificationNumber ;
+    ns4:hasMember ns8:NationalIdentificationNumber .
+
+ns8:PassportNumberIdentificationScheme rdfs:label "passport number identification scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns5:defines ns8:PassportNumber ;
+    ns4:hasMember ns8:PassportNumber .
+
+ns8:PersonName rdfs:label "person name" ;
+    rdfs:subClassOf ns28:Name,
+        ns29:ContextualName ;
+    ns28:isStructuredNameOf ns8:Person ;
+    ns8:hasFamilyName ns28:Text ;
+    ns8:hasFullLegalName ns28:Text ;
+    ns8:hasLastName ns28:Text ;
+    ns8:hasNamePrefix ns28:Text ;
+    ns8:hasNameSuffix ns28:Text ;
+    ns8:hasSurname ns28:Text .
+
+ns31:MutualAgreement rdfs:label "mutual agreement" ;
+    owl2vec:superClassOf ns7:MutualContractualAgreement ;
+    rdfs:subClassOf ns31:Agreement ;
+    ns5:confers ns31:MutualCommitment .
+
+ns31:MutualCommitment rdfs:label "mutual commitment" ;
+    owl2vec:superClassOf ns7:ContractualCommitment ;
+    rdfs:subClassOf ns31:Commitment ;
+    ns5:isConferredBy ns31:MutualAgreement .
+
+ns7:ContractPrincipal rdfs:label "contract principal" ;
+    rdfs:subClassOf ns7:ContractParty .
+
+ns7:Counterparty rdfs:label "counterparty" ;
+    rdfs:subClassOf ns7:ContractParty .
+
+ns7:MasterAgreement rdfs:label "master agreement" ;
+    rdfs:subClassOf ns7:MutualContractualAgreement,
+        ns7:WrittenContract ;
+    ns5:governs ns7:Contract .
+
+ns7:MutualContractualAgreement rdfs:label "mutual contractual agreement" ;
+    owl2vec:superClassOf ns7:MasterAgreement ;
+    rdfs:subClassOf ns31:MutualAgreement,
+        ns7:Contract .
+
+ns7:NonBindingTerm rdfs:label "non-binding term" ;
+    rdfs:subClassOf ns7:ContractualElement .
+
+ns7:TransferableContract rdfs:label "transferable contract" ;
+    owl2vec:superClassOf ns7:AssignableContract,
+        ns7:NovateableContract ;
+    rdfs:subClassOf ns7:WrittenContract .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier> rdfs:label "industry sector classifier" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns5:isDefinedIn <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassificationScheme> ;
+    ns15:classifies ns10:LegalEntity .
+
+ns23:Certificate rdfs:label "certificate" ;
+    owl2vec:superClassOf ns8:BirthCertificate,
+        ns8:DeathCertificate ;
+    rdfs:subClassOf ns23:Document .
+
+ns18:CompositeIdentifier rdfs:label "composite identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns5:comprises ns4:CodeElement,
+        ns4:Identifier .
+
+ns18:IndexingScheme rdfs:label "indexing scheme" ;
+    owl2vec:superClassOf ns1:AddressingScheme ;
+    rdfs:subClassOf ns27:Scheme ;
+    ns5:defines ns18:Index .
+
+ns9:BusinessDayAdjustment rdfs:label "business day adjustment" ;
+    rdfs:subClassOf ns9:Convention ;
+    ns9:hasBusinessDayConvention ns9:BusinessDayConvention ;
+    ns25:hasBusinessCenter ns25:BusinessCenter .
+
+ns9:Convention rdfs:label "convention" ;
+    owl2vec:superClassOf ns9:BusinessDayAdjustment,
+        ns9:BusinessDayConvention,
+        ns9:BusinessRecurrenceIntervalConvention .
+
+ns12:AdHocSchedule rdfs:label "ad hoc schedule" ;
+    rdfs:subClassOf ns12:Schedule,
+        ns4:Collection ;
+    ns27:hasConstituent ns12:AdHocScheduleEntry .
+
+ns12:Age rdfs:label "age" ;
+    owl2vec:superClassOf ns8:LegalAge ;
+    rdfs:subClassOf ns12:Duration ;
+    ns12:hasAsOfDate ns12:ExplicitDate .
+
+ns12:DateTimeStamp rdfs:label "date time stamp" ;
+    rdfs:subClassOf ns12:TimeInstant .
+
+ns12:DatedCollectionConstituent rdfs:label "dated collection constituent" ;
+    owl2vec:superClassOf ns12:AdHocScheduleEntry ;
+    rdfs:subClassOf ns27:CollectionConstituent ;
+    ns27:isConstituentOf ns12:DatedStructuredCollection ;
+    ns12:hasObservedDateTime ns12:CombinedDateTime .
+
+ns12:DatedStructuredCollection rdfs:label "dated structured collection" ;
+    rdfs:subClassOf ns27:StructuredCollection,
+        ns4:Collection ;
+    ns27:hasConstituent ns12:DatedCollectionConstituent .
+
+ns12:ExplicitDuration rdfs:label "explicit duration" ;
+    owl2vec:typeOf ns12:Day ;
+    rdfs:subClassOf ns12:Duration .
+
+ns12:ExplicitRecurrenceInterval rdfs:label "explicit recurrence interval" ;
+    rdfs:subClassOf ns12:Duration,
+        ns12:RecurrenceInterval .
+
+ns12:Schedule rdfs:label "schedule" ;
+    owl2vec:superClassOf ns12:AdHocSchedule,
+        ns12:RegularSchedule ;
+    rdfs:subClassOf ns4:Collection ;
+    ns12:hasOverallPeriod ns12:DatePeriod .
+
+ns12:TimeDirection rdfs:label "time direction" ;
+    owl2vec:typeOf ns12:FromEnd,
+        ns12:FromStart .
+
+ns19:Strategy rdfs:label "strategy" ;
+    owl2vec:superClassOf ns19:BusinessStrategy,
+        ns19:DistributionStrategy ;
+    ns19:hasGoal ns19:Goal ;
+    ns19:hasObjective ns19:Objective ;
+    ns5:isGovernedBy ns6:Policy .
+
+ns6:ContingentObligation rdfs:label "contingent obligation"@en ;
+    rdfs:subClassOf ns6:Duty ;
+    ns31:isObligationOf ns31:Obligor ;
+    ns6:isImpliedBy ns6:ContingentRight .
+
+ns6:ContractualObligation rdfs:label "contractual obligation" ;
+    rdfs:subClassOf ns6:LegalObligation ;
+    ns6:isImpliedBy ns6:ContractualRight ;
+    ns5:isConferredBy ns7:Contract .
+
+ns6:Duty rdfs:label "duty" ;
+    owl2vec:superClassOf ns6:ContingentObligation,
+        ns6:LegalObligation ;
+    rdfs:subClassOf ns6:LegalConstruct .
+
+ns6:LegalRight rdfs:label "legal right" ;
+    rdfs:subClassOf ns6:Right ;
+    ns20:appliesIn ns20:Jurisdiction ;
+    ns6:implies ns6:LegalObligation ;
+    ns5:isConferredBy ns20:StatuteLaw .
+
+ns6:Licensee rdfs:label "licensee" ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole .
+
+ns14:Employment rdfs:label "employment"@en ;
+    rdfs:subClassOf ns26:Membership ;
+    ns14:hasEmployedParty ns14:Employee ;
+    ns14:hasEmployingParty ns14:Employer .
+
+ns26:OrganizationIdentificationScheme rdfs:label "organization identification scheme" ;
+    owl2vec:superClassOf ns3:RegistrationIdentifierScheme ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns4:hasMember ns26:OrganizationIdentifier .
+
+ns26:OrganizationName rdfs:label "organization name" ;
+    rdfs:subClassOf ns28:Name,
+        ns29:ContextualName ;
+    ns28:isStructuredNameOf ns26:Organization ;
+    ns5:hasLegalName ns28:Text .
+
+ns11:Owner rdfs:label "owner" ;
+    rdfs:subClassOf ns29:Actor ;
+    ns11:isOwningParty ns11:Ownership ;
+    ns11:ownsAsset ns11:Asset .
+
+ns11:Ownership rdfs:label "ownership"@en ;
+    rdfs:subClassOf ns29:Situation ;
+    ns11:hasOwnedAsset ns11:Asset ;
+    ns11:hasOwningParty ns11:Owner .
+
+ns11:TangibleAsset rdfs:label "tangible asset" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PhysicalAsset> ;
+    rdfs:subClassOf ns11:Asset .
+
+ns29:Actor rdfs:label "actor" ;
+    owl2vec:superClassOf ns11:Owner ;
+    rdfs:subClassOf ns29:PartyInRole ;
+    ns29:actsIn ns29:Situation .
+
+ns29:PartyInRoleIdentificationScheme rdfs:label "party-in-role identification scheme" ;
+    rdfs:subClassOf ns4:IdentificationScheme ;
+    ns5:defines ns29:PartyInRoleIdentifier ;
+    ns4:hasMember ns29:PartyInRoleIdentifier .
+
+ns29:Undergoer rdfs:label "undergoer" ;
+    owl2vec:superClassOf ns11:Asset ;
+    rdfs:subClassOf ns22:ThingInRole ;
+    ns29:undergoes ns29:Situation .
+
+ns1:AddressingScheme rdfs:label "addressing scheme" ;
+    owl2vec:superClassOf ns1:PhysicalAddressingScheme ;
+    rdfs:subClassOf ns18:IndexingScheme ;
+    ns5:defines ns1:Address .
+
+ns1:GeographicDirectionalSymbol rdfs:label "geographic directional symbol" ;
+    owl2vec:superClassOf ns1:PostdirectionalSymbol,
+        ns1:PredirectionalSymbol ;
+    rdfs:subClassOf ns4:CodeElement .
+
+ns1:PostCodeArea rdfs:label "post code area"@en ;
+    rdfs:subClassOf ns15:GeographicRegion ;
+    ns4:hasDenotation ns1:Postcode ;
+    ns4:isIdentifiedBy ns1:Postcode .
+
+ns1:PostOfficeBox rdfs:label "post office box" ;
+    rdfs:subClassOf ns1:SupplementalAddressComponent ;
+    ns5:comprises ns1:PostOfficeBoxDesignator ;
+    ns5:isIncludedIn ns1:PostOfficeBoxAddress .
+
+ns1:StreetSuffix rdfs:label "street suffix" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier>,
+        ns1:AddressComponent .
+
+ns25:Municipality rdfs:label "municipality" ;
+    owl2vec:superClassOf ns25:BusinessCenter ;
+    rdfs:subClassOf ns15:GeopoliticalEntity .
+
+ns13:BaseQuantity rdfs:label "base quantity" ;
+    rdfs:subClassOf ns13:QuantityKind ;
+    ns5:isDefinedIn ns13:SystemOfQuantities .
+
+ns13:DerivedQuantity rdfs:label "derived quantity" ;
+    rdfs:subClassOf ns13:QuantityKind ;
+    ns13:hasFactor ns13:QuantityKindFactor ;
+    ns13:isDerivedFrom ns13:BaseQuantity,
+        ns13:DerivedQuantity ;
+    ns5:isDefinedIn ns13:SystemOfQuantities .
+
+ns13:QuantityKindFactor rdfs:label "quantity kind factor" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns13:hasQuantityKind ns13:QuantityKind .
+
+ns16:Constant rdfs:label "constant" ;
+    rdfs:subClassOf ns5:Reference,
+        ns16:Variable .
+
+ns16:RatioValue rdfs:label "ratio value" ;
+    owl2vec:superClassOf ns17:ExchangeRate,
+        ns16:Percentage ;
+    rdfs:subClassOf ns13:QuantityValue ;
+    ns16:hasArgument ns16:Variable .
+
+ns16:StatisticalProgram rdfs:label "statistical program" ;
+    rdfs:subClassOf ns19:Program ;
+    ns25:hasCoverageArea ns16:StatisticalArea ;
+    ns5:appliesTo ns16:StatisticalUniverse ;
+    ns5:provides ns16:StatisticalMeasure .
+
+ns16:StatisticalUniverse rdfs:label "statistical universe" ;
+    owl2vec:superClassOf ns16:StatisticalPopulation ;
+    rdfs:subClassOf ns4:Collection ;
+    ns5:hasContext ns16:StatisticalProgram .
+
+ns16:Variance rdfs:label "variance" ;
+    owl2vec:superClassOf ns16:SamplingVariance ;
+    rdfs:subClassOf ns16:Dispersion ;
+    ns16:hasArgument ns16:Mean .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel> rdfs:label "maturity level" ;
+    owl2vec:typeOf <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Informative>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release> .
+
+ns15:Country rdfs:label "country" ;
+    rdfs:subClassOf ns15:GeopoliticalEntity ;
+    ns15:usesAdministrativeLanguage ns4:Language .
+
+ns15:GeographicRegionKind rdfs:label "kind of geographic region" ;
+    rdfs:subClassOf ns4:Arrangement ;
+    ns15:classifies ns15:CountrySubdivision,
+        ns15:GeographicRegion .
+
+ns4:Alpha3Code rdfs:label "alpha-3 code" ;
+    owl2vec:superClassOf ns4:BibliographicCode,
+        ns4:TerminologyCode ;
+    rdfs:subClassOf ns4:LanguageIdentifier .
+
+ns4:CodeSet rdfs:label "code set" ;
+    rdfs:subClassOf ns27:Scheme,
+        ns4:Arrangement ;
+    skos:altLabel "coding scheme"^^xsd:string ;
+    ns4:hasMember ns4:CodeElement .
+
+ns4:CollectiveLanguageCode rdfs:label "collective language code" ;
+    rdfs:subClassOf ns4:LanguageIdentifier ;
+    ns4:denotes ns4:LanguageGroup ;
+    ns4:identifies ns4:LanguageGroup .
+
+ns4:IndividualLanguageIdentifier rdfs:label "individual language identifier" ;
+    rdfs:subClassOf ns4:LanguageIdentifier ;
+    ns4:denotes ns4:IndividualLanguage ;
+    ns4:identifies ns4:IndividualLanguage .
+
+ns4:LanguageVariant rdfs:label "language variant" ;
+    owl2vec:superClassOf ns4:Dialect,
+        ns4:StandardVariant ;
+    rdfs:subClassOf ns4:IndividualLanguage .
+
+ns4:Macrolanguage rdfs:label "macrolanguage" ;
+    rdfs:subClassOf ns4:Language ;
+    ns4:hasDenotation ns4:MacrolanguageIdentifier ;
+    ns4:isIdentifiedBy ns4:MacrolanguageIdentifier .
+
+ns4:MacrolanguageIdentifier rdfs:label "macrolanguage identifier" ;
+    rdfs:subClassOf ns4:LanguageIdentifier ;
+    ns4:denotes ns4:Macrolanguage ;
+    ns4:identifies ns4:Macrolanguage .
+
+ns4:SpecialPurposeCode rdfs:label "special purpose code" ;
+    rdfs:subClassOf ns4:LanguageIdentifier ;
+    ns4:denotes ns4:SpecialPurposeLanguageConcept ;
+    ns4:identifies ns4:SpecialPurposeLanguageConcept .
+
+ns4:SpecialPurposeLanguageConcept rdfs:label "special purpose language concept" ;
+    rdfs:subClassOf ns4:Language ;
+    ns4:hasDenotation ns4:SpecialPurposeCode ;
+    ns4:isIdentifiedBy ns4:SpecialPurposeCode .
+
+owl:Thing ns17:hasPrice ns17:UnitPrice ;
+    ns6:isLicensedBy ns6:Licensor ;
+    ns4:isIdentifiedBy ns4:Identifier .
+
+ns3:RegistrationIdentifier rdfs:label "registration identifier" ;
+    rdfs:subClassOf ns26:OrganizationIdentifier ;
+    ns5:isDefinedIn ns3:RegistrationIdentifierScheme ;
+    ns5:isGovernedBy ns20:Jurisdiction ;
+    ns4:identifies ns14:FormalOrganization .
+
+ns30:Corporation rdfs:label "corporation"@en ;
+    owl2vec:superClassOf ns30:ForProfitCorporation,
+        ns30:NotForProfitCorporation,
+        ns30:StockCorporation ;
+    rdfs:subClassOf ns10:LegalEntity ;
+    ns30:isConstitutedBy ns30:InstrumentOfIncorporation,
+        ns2:Constitution ;
+    ns30:isIncorporatedIn ns20:Jurisdiction .
+
+ns30:StockCorporation rdfs:label "stock corporation"@en ;
+    owl2vec:superClassOf ns3:PrivatelyHeldCompany,
+        ns3:PubliclyHeldCompany ;
+    rdfs:subClassOf ns30:Corporation ;
+    ns3:hasDateOfIncorporation ns12:ExplicitDate ;
+    ns3:hasDateOfRegistration ns12:ExplicitDate ;
+    ns3:hasIssuedCapital ns17:MonetaryAmount ;
+    ns5:isGovernedBy ns3:BoardAgreement .
+
+ns10:BusinessEntity rdfs:label "business entity" ;
+    owl2vec:superClassOf ns3:JointStockCompany ;
+    rdfs:subClassOf ns14:FormalOrganization ;
+    ns19:hasObjective ns19:BusinessObjective ;
+    ns5:holds ns6:License .
+
+ns10:LegallyCompetentNaturalPerson rdfs:label "legally competent natural person" ;
+    rdfs:subClassOf ns10:LegalPerson,
+        ns28:AutonomousAgent,
+        ns8:Person .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PaidInCapital> rdfs:label "paid-in capital" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/CapitalSurplus> ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity>,
+        ns16:Variable .
+
+ns17:CurrencyIdentifier rdfs:label "currency identifier" ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    ns4:denotes ns17:Currency ;
+    ns4:identifies ns17:Currency .
+
+ns17:FundsIdentifier rdfs:label "funds identifier" ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    ns4:denotes ns17:Funds ;
+    ns4:identifies ns17:Funds .
+
+ns17:MonetaryPrice rdfs:label "monetary price" ;
+    owl2vec:superClassOf ns17:CalculatedPrice,
+        ns17:UnitPrice ;
+    rdfs:subClassOf ns17:MonetaryAmount,
+        ns17:Price .
+
+ns17:PreciousMetalIdentifier rdfs:label "precious metal identifier" ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    ns4:denotes ns17:PreciousMetal ;
+    ns4:identifies ns17:PreciousMetal .
+
+ns17:UnitOfAccountIdentifier rdfs:label "unit of account identifier" ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    ns4:denotes ns17:UnitOfAccount ;
+    ns4:identifies ns17:UnitOfAccount .
+
+ns8:BirthCertificate rdfs:label "birth certificate" ;
+    rdfs:subClassOf ns8:IdentityDocument,
+        ns23:Certificate ;
+    ns7:isEvidenceFor ns8:PlaceOfBirth ;
+    ns4:isIdentifiedBy ns8:BirthCertificateIdentifier .
+
+ns8:DeathCertificate rdfs:label "death certificate" ;
+    rdfs:subClassOf ns8:IdentityDocument,
+        ns23:Certificate ;
+    ns7:isEvidenceFor ns8:DateOfDeath ;
+    ns4:isIdentifiedBy ns8:DeathCertificateIdentifier .
+
+ns8:PassportNumber rdfs:label "passport number" ;
+    rdfs:subClassOf ns8:NationalIdentificationNumber ;
+    ns5:isDefinedIn ns8:PassportNumberIdentificationScheme ;
+    ns5:isIncludedIn ns8:Passport ;
+    ns4:isMemberOf ns8:PassportNumberIdentificationScheme .
+
+ns8:PlaceOfBirth rdfs:label "place of birth" ;
+    rdfs:subClassOf ns25:PhysicalLocation ;
+    ns7:isEvidencedBy ns8:BirthCertificate,
+        ns8:IdentityDocument .
+
+ns31:Agreement rdfs:label "agreement"@en ;
+    owl2vec:superClassOf ns31:MutualAgreement,
+        ns7:Contract,
+        ns7:TermSheet ;
+    ns7:hasContractualElement ns7:ContractualElement ;
+    ns7:hasNonBindingTerm ns7:NonBindingTerm ;
+    ns29:hasPartyInRole ns29:PartyInRole ;
+    ns5:confers ns31:Commitment .
+
+ns31:Commitment rdfs:label "commitment"@en ;
+    owl2vec:superClassOf ns31:MutualCommitment,
+        ns31:UnilateralCommitment ;
+    ns31:isObligationOf ns31:Obligor ;
+    ns5:isConferredBy ns31:Agreement .
+
+ns31:Obligor rdfs:label "obligor" ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole ;
+    ns31:hasObligation ns31:Commitment,
+        ns6:ContingentObligation .
+
+ns31:UnilateralCommitment rdfs:label "unilateral commitment" ;
+    owl2vec:superClassOf ns31:CommitmentAtLarge,
+        ns31:IndividualUnilateralCommitment ;
+    rdfs:subClassOf ns31:Commitment ;
+    ns5:isConferredBy ns7:UnilateralContract .
+
+ns23:Document rdfs:label "document" ;
+    owl2vec:superClassOf ns23:Certificate,
+        ns23:LegalDocument,
+        ns23:Notice,
+        ns23:ReferenceDocument ;
+    ns23:isAbout owl:Thing .
+
+ns23:LegalDocument rdfs:label "legal document" ;
+    owl2vec:superClassOf ns8:IdentityDocument,
+        ns7:ContractDocument,
+        ns6:License ;
+    rdfs:subClassOf ns23:Document .
+
+ns18:Index rdfs:label "index" ;
+    owl2vec:superClassOf ns1:Address,
+        ns1:PhysicalAddress ;
+    rdfs:subClassOf ns5:Reference ;
+    ns5:isDefinedIn ns18:IndexingScheme .
+
+ns9:BusinessRecurrenceInterval rdfs:label "business recurrence interval" ;
+    owl2vec:superClassOf ns9:DayOfMonth,
+        ns9:DayOfWeek,
+        ns9:EndOfMonth ;
+    rdfs:subClassOf ns12:RecurrenceInterval ;
+    ns9:hasBusinessRecurrenceIntervalConvention ns9:BusinessRecurrenceIntervalConvention .
+
+ns12:CalculatedDate rdfs:label "calculated date" ;
+    owl2vec:superClassOf ns12:RelativeDate,
+        ns12:SpecifiedDate,
+        ns21:OccurrenceBasedDate ;
+    rdfs:subClassOf ns12:Date ;
+    ns9:hasBusinessDayAdjustment ns9:BusinessDayAdjustment .
+
+ns12:ExplicitDatePeriod rdfs:label "explicit date period" ;
+    rdfs:subClassOf ns12:DatePeriod,
+        ns16:Aspect ;
+    ns12:hasDuration ns12:ExplicitDuration ;
+    ns12:hasEndDate ns12:ExplicitDate ;
+    ns12:hasStartDate ns12:ExplicitDate ;
+    ns5:characterizes ns16:StatisticalPopulation .
+
+ns12:TimeInstant rdfs:label "time instant" ;
+    owl2vec:superClassOf ns12:Date,
+        ns12:DateTime,
+        ns12:DateTimeStamp,
+        ns12:TimeOfDay .
+
+ns19:BusinessObjective rdfs:label "business objective" ;
+    owl2vec:superClassOf ns10:ProfitObjective ;
+    rdfs:subClassOf ns19:Objective .
+
+ns19:Goal rdfs:label "goal" ;
+    ns6:isImplementedBy ns6:Policy .
+
+ns6:ContractualRight rdfs:label "contractual right" ;
+    owl2vec:superClassOf ns6:ContractualOption ;
+    rdfs:subClassOf ns6:Right ;
+    ns6:implies ns6:ContractualObligation ;
+    ns5:isConferredBy ns7:Contract .
+
+ns6:Licensor rdfs:label "licensor" ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole ;
+    ns6:licenses owl:Thing ;
+    ns5:issues ns6:License .
+
+ns6:Regulation rdfs:label "regulation" ;
+    rdfs:subClassOf ns6:LegalConstruct ;
+    ns20:appliesIn ns20:Jurisdiction ;
+    ns5:confers ns6:LegalObligation ;
+    ns5:isConferredBy ns2:Law ;
+    ns5:mandates ns6:LegalObligation .
+
+ns6:Right rdfs:label "right" ;
+    owl2vec:superClassOf ns6:ContingentRight,
+        ns6:ContractualRight,
+        ns6:LegalRight ;
+    rdfs:subClassOf ns6:LegalConstruct .
+
+ns2:Law rdfs:label "law" ;
+    owl2vec:superClassOf ns20:StatuteLaw ;
+    ns5:confers ns6:LegalConstruct,
+        ns6:Regulation ;
+    ns5:isGovernedBy ns2:Constitution .
+
+ns26:MemberBearingOrganization rdfs:label "member-bearing organization" ;
+    owl2vec:superClassOf ns14:Employer ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole ;
+    ns26:isMembershipPartyIn ns26:Membership .
+
+ns26:Membership rdfs:label "membership"@en ;
+    owl2vec:superClassOf ns14:Employment ;
+    rdfs:subClassOf ns29:Situation ;
+    ns26:hasMembership ns26:MemberBearingOrganization ;
+    ns26:hasOrganizationMember ns26:OrganizationMember .
+
+ns26:OrganizationMember rdfs:label "organization member" ;
+    owl2vec:superClassOf ns14:Employee ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole ;
+    ns26:isOrganizationMember ns26:Membership .
+
+ns29:ContextualName rdfs:label "contextual name" ;
+    owl2vec:superClassOf ns8:PersonName,
+        ns26:OrganizationName ;
+    rdfs:subClassOf ns28:Name ;
+    ns28:isStructuredNameOf ns29:IndependentParty ;
+    ns9:holdsDuring ns12:DatePeriod .
+
+ns29:PartyInRoleIdentifier rdfs:label "party-in-role identifier" ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns5:isDefinedIn ns29:PartyInRoleIdentificationScheme ;
+    ns4:identifies ns29:PartyInRole ;
+    ns4:isMemberOf ns29:PartyInRoleIdentificationScheme .
+
+ns29:Situation rdfs:label "situation" ;
+    owl2vec:superClassOf ns26:Membership,
+        ns11:Ownership ;
+    ns9:holdsDuring ns12:DatePeriod ;
+    ns29:hasActor ns29:Actor ;
+    ns29:hasUndergoer ns29:Undergoer .
+
+ns1:Address rdfs:label "address"@en ;
+    owl2vec:superClassOf ns1:PhysicalAddress,
+        ns1:VirtualAddress ;
+    rdfs:subClassOf ns18:Index ;
+    ns18:isIndexTo ns15:Location ;
+    ns5:isDefinedIn ns1:AddressingScheme .
+
+ns1:ConventionalStreetAddress rdfs:label "conventional street address" ;
+    rdfs:subClassOf ns1:PhysicalAddress ;
+    ns1:hasStreetAddress ns1:StreetAddress .
+
+ns1:PhysicalAddressingScheme rdfs:label "physical addressing scheme" ;
+    rdfs:subClassOf ns1:AddressingScheme ;
+    ns5:defines ns1:PhysicalAddress,
+        ns1:PhysicalAddressIdentifier ;
+    ns4:hasMember ns1:PhysicalAddressIdentifier .
+
+ns1:SecondaryUnit rdfs:label "secondary unit" ;
+    rdfs:subClassOf ns1:AddressComponent ;
+    ns5:comprises ns1:SecondaryUnitDesignator,
+        ns1:SecondaryUnitIndicator .
+
+ns1:SupplementalAddressDesignator rdfs:label "supplemental address designator" ;
+    owl2vec:superClassOf ns1:PostOfficeBoxDesignator ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns5:isIncludedIn ns1:SupplementalAddressComponent ;
+    ns15:classifies ns1:SupplementalAddressComponent .
+
+ns16:FinitePopulation rdfs:label "finite population" ;
+    owl2vec:superClassOf ns16:StatisticalPopulation ;
+    rdfs:subClassOf ns4:Collection .
+
+ns16:Measure rdfs:label "measure" ;
+    owl2vec:superClassOf ns17:MonetaryMeasure,
+        ns13:Quantity,
+        ns16:StatisticalMeasure ;
+    rdfs:subClassOf ns5:Reference .
+
+ns16:StatisticalPopulation rdfs:label "statistical population" ;
+    rdfs:subClassOf ns16:FinitePopulation,
+        ns16:StatisticalUniverse ;
+    ns5:isCharacterizedBy ns12:ExplicitDatePeriod,
+        ns16:StatisticalArea .
+
+ns15:Location rdfs:label "location" ;
+    owl2vec:superClassOf ns25:PhysicalLocation,
+        ns15:GeographicRegion .
+
+ns4:IndividualLanguage rdfs:label "individual language" ;
+    owl2vec:superClassOf ns4:LanguageVariant ;
+    rdfs:subClassOf ns4:Language ;
+    ns4:hasDenotation ns4:IndividualLanguageIdentifier ;
+    ns4:isIdentifiedBy ns4:IndividualLanguageIdentifier .
+
+ns30:NotForProfitCorporation rdfs:label "not-for-profit corporation" ;
+    owl2vec:superClassOf ns3:ReligiousCorporation,
+        ns30:BenefitCorporation,
+        ns30:CommonInterestDevelopmentCorporation ;
+    rdfs:subClassOf ns30:Corporation,
+        ns24:NotForProfitOrganization .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity> rdfs:label "owners' equity"@en ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PaidInCapital>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/RetainedEarnings>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/ShareholdersEquity> ;
+    rdfs:subClassOf ns16:Expression ;
+    ns5:appliesTo ns14:FormalOrganization ;
+    ns16:hasArgument <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PaidInCapital>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/RetainedEarnings> .
+
+ns17:MonetaryAmount rdfs:label "monetary amount" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/Income>,
+        ns17:MonetaryPrice ;
+    rdfs:subClassOf ns13:QuantityValue ;
+    ns17:hasCurrency ns17:Currency .
+
+ns28:Name rdfs:label "name" ;
+    owl2vec:superClassOf ns8:PersonName,
+        ns26:OrganizationName,
+        ns29:ContextualName ;
+    rdfs:subClassOf ns5:Reference ;
+    ns28:hasTextValue ns28:Text ;
+    ns28:isStructuredNameOf ns28:AutonomousAgent .
+
+ns7:ContractParty rdfs:label "contract party" ;
+    owl2vec:superClassOf ns7:ContractPrincipal,
+        ns7:Counterparty ;
+    rdfs:subClassOf ns29:PartyInRole,
+        ns22:ThingInRole ;
+    ns5:hasIdentity ns10:LegalPerson .
+
+ns7:WrittenContract rdfs:label "written contract" ;
+    owl2vec:superClassOf ns24:OrganizationCoveringAgreement,
+        ns7:MasterAgreement,
+        ns7:TransferableContract ;
+    rdfs:subClassOf ns7:Contract ;
+    ns7:hasCounterparty ns7:Counterparty ;
+    ns7:hasEffectiveDateTimeStamp ns12:DateTimeStamp ;
+    ns7:hasExecutionDate ns12:Date ;
+    ns7:hasExecutionDateTimeStamp ns12:DateTimeStamp ;
+    ns7:hasPrincipalParty ns7:ContractPrincipal ;
+    ns7:isEvidencedBy ns7:ContractDocument .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme> rdfs:label "classification scheme" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassificationScheme>,
+        ns13:SystemOfQuantities,
+        ns13:SystemOfUnits ;
+    rdfs:subClassOf ns27:Scheme ;
+    ns5:defines <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> .
+
+ns12:ScheduleStub rdfs:label "schedule stub" ;
+    rdfs:subClassOf ns4:Collection ;
+    ns12:hasDatePeriod ns12:DatePeriod ;
+    ns21:hasOccurrence ns21:Occurrence ;
+    ns5:comprises ns21:OccurrenceKind .
+
+ns21:Occurrence rdfs:label "occurrence" ;
+    ns9:holdsDuring ns12:DatePeriod ;
+    ns21:exemplifies ns21:OccurrenceKind ;
+    ns21:hasEventDate ns12:Date ;
+    ns21:hasEventDateValue ns12:CombinedDateTime ;
+    ns25:isLocatedAt ns15:Location ;
+    ns15:isClassifiedBy ns21:OccurrenceKind .
+
+ns20:StatuteLaw rdfs:label "statute law"@en ;
+    rdfs:subClassOf ns2:Law ;
+    skos:altLabel "statutory law" ;
+    ns2:isInForceIn ns20:Jurisdiction ;
+    ns5:confers ns6:LegalObligation,
+        ns6:LegalRight ;
+    ns5:mandates ns6:LegalObligation .
+
+ns6:Policy rdfs:label "policy" ;
+    owl2vec:superClassOf ns6:ReportingPolicy ;
+    ns6:implements ns19:Goal,
+        ns19:Objective,
+        ns6:LegalConstruct ;
+    ns5:governs ns19:Strategy .
+
+ns14:Employee rdfs:label "employee" ;
+    rdfs:subClassOf ns26:OrganizationMember,
+        ns22:ThingInRole ;
+    ns14:isEmployedIn ns14:Employment ;
+    ns14:isEmployeeOf ns14:Employer ;
+    ns22:isPlayedBy ns8:Person .
+
+ns14:Employer rdfs:label "employer" ;
+    rdfs:subClassOf ns26:MemberBearingOrganization,
+        ns22:ThingInRole ;
+    ns14:hasEmployee ns14:Employee ;
+    ns14:isEmployingParty ns14:Employment ;
+    ns22:isPlayedBy ns10:LegalPerson .
+
+ns11:Asset rdfs:label "asset" ;
+    owl2vec:superClassOf ns11:IntangibleAsset,
+        ns11:TangibleAsset ;
+    rdfs:subClassOf ns29:Undergoer ;
+    ns12:hasAcquisitionDate ns12:CombinedDateTime ;
+    ns11:isAssetOf ns11:Owner ;
+    ns11:isOwnedAsset ns11:Ownership .
+
+ns1:PhysicalAddressIdentifier rdfs:label "physical address identifier" ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    ns5:isDefinedIn ns1:PhysicalAddressingScheme ;
+    ns4:identifies ns1:PhysicalAddress ;
+    ns4:isMemberOf ns1:PhysicalAddressingScheme .
+
+ns1:Postcode rdfs:label "postcode"@en ;
+    rdfs:subClassOf ns15:GeographicRegionIdentifier,
+        ns4:CodeElement ;
+    ns4:denotes ns1:PostCodeArea ;
+    ns4:identifies ns1:PostCodeArea .
+
+ns1:SupplementalAddressComponent rdfs:label "supplemental address component" ;
+    owl2vec:superClassOf ns1:PostOfficeBox ;
+    rdfs:subClassOf ns1:AddressComponent ;
+    ns5:comprises ns1:SupplementalAddressDesignator,
+        ns1:SupplementalAddressUnit ;
+    ns15:isClassifiedBy ns1:SupplementalAddressDesignator .
+
+ns25:PhysicalLocation rdfs:label "physical location" ;
+    owl2vec:superClassOf ns8:PlaceOfBirth,
+        ns25:PopulatedPlace,
+        ns25:RealEstate ;
+    rdfs:subClassOf ns15:Location .
+
+ns13:QuantityValue rdfs:label "quantity value" ;
+    owl2vec:superClassOf ns17:AmountOfMoney,
+        ns17:MonetaryAmount,
+        ns17:Price,
+        ns16:NumericIndexValue,
+        ns16:RatioValue ;
+    ns13:hasMeasurementUnit ns13:MeasurementUnit .
+
+ns16:Median rdfs:label "median" ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure,
+        ns16:Variable ;
+    ns16:hasObservedValue ns27:StructuredCollection .
+
+ns15:CountrySubdivision rdfs:label "country subdivision" ;
+    owl2vec:superClassOf ns25:County,
+        ns25:FederalState ;
+    rdfs:subClassOf ns15:GeopoliticalEntity ;
+    ns15:isClassifiedBy ns15:GeographicRegionKind .
+
+ns4:LanguageGroup rdfs:label "language group" ;
+    owl2vec:superClassOf ns4:LanguageFamily,
+        ns4:RemainderGroup ;
+    rdfs:subClassOf ns4:Collection ;
+    ns4:hasDenotation ns4:CollectiveLanguageCode ;
+    ns4:isIdentifiedBy ns4:CollectiveLanguageCode .
+
+ns10:LegalPerson rdfs:label "legal person"@en ;
+    owl2vec:superClassOf ns10:LegalEntity,
+        ns10:LegallyCompetentNaturalPerson ;
+    rdfs:subClassOf ns29:IndependentParty ;
+    ns10:isRecognizedIn ns20:Jurisdiction ;
+    ns14:employs ns8:Person ;
+    ns22:playsRole ns14:Employer .
+
+ns28:AutonomousAgent rdfs:label "autonomous agent" ;
+    owl2vec:superClassOf ns10:LegallyCompetentNaturalPerson,
+        ns28:AutomatedSystem,
+        ns29:IndependentParty ;
+    ns28:hasStructuredName ns28:Name ;
+    ns4:hasName ns28:Text ;
+    ns4:isMemberOf ns14:Group .
+
+ns8:NationalIdentificationNumber rdfs:label "national identification number" ;
+    owl2vec:superClassOf ns8:PassportNumber,
+        ns29:TaxIdentifier ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns5:isDefinedIn ns8:NationalIdentificationNumberScheme ;
+    ns4:identifies ns8:Person ;
+    ns4:isMemberOf ns8:NationalIdentificationNumberScheme .
+
+ns7:ContractualElement rdfs:label "contractual element" ;
+    owl2vec:superClassOf ns7:ConditionPrecedent,
+        ns7:ContractualCommitment,
+        ns7:ContractualDefinition,
+        ns7:NonBindingTerm .
+
+ns12:CalendarPeriod rdfs:label "calendar period" ;
+    owl2vec:typeOf ns12:CalendarMonth,
+        ns12:CalendarQuarter,
+        ns12:CalendarWeek,
+        ns12:CalendarYear ;
+    rdfs:subClassOf ns12:TimeInterval .
+
+ns12:RecurrenceInterval rdfs:label "recurrence interval" ;
+    owl2vec:superClassOf ns9:BusinessRecurrenceInterval,
+        ns12:CalendarSpecifiedInterval,
+        ns12:ExplicitRecurrenceInterval ;
+    rdfs:subClassOf ns12:TimeInterval .
+
+ns6:License rdfs:label "license" ;
+    owl2vec:superClassOf ns10:BusinessLicense ;
+    rdfs:subClassOf ns23:LegalDocument ;
+    ns9:holdsDuring ns12:DatePeriod ;
+    ns29:hasPartyInRole ns6:Licensee ;
+    ns5:confers ns6:LegalCapacity ;
+    ns5:isHeldBy ns10:BusinessEntity ;
+    ns5:isIssuedBy ns6:Licensor ;
+    ns4:isIdentifiedBy ns6:LicenseIdentifier .
+
+ns2:Constitution rdfs:label "constitution" ;
+    owl2vec:superClassOf ns30:IncorporationGuarantee,
+        ns30:InstrumentOfIncorporation ;
+    rdfs:subClassOf ns4:Collection ;
+    ns5:confers ns6:LegalConstruct ;
+    ns5:governs ns2:Law .
+
+ns26:OrganizationIdentifier rdfs:label "organization identifier" ;
+    owl2vec:superClassOf ns3:RegistrationIdentifier,
+        ns24:ValueAddedTaxIdentificationNumber,
+        ns29:TaxIdentifier ;
+    rdfs:subClassOf ns4:Identifier ;
+    ns4:identifies ns26:Organization ;
+    ns4:isMemberOf ns26:OrganizationIdentificationScheme .
+
+ns26:OrganizationalSubUnit rdfs:label "organizational sub-unit" ;
+    owl2vec:superClassOf ns24:Branch,
+        ns24:Division ;
+    rdfs:subClassOf ns26:Organization ;
+    ns26:isSubUnitOf ns26:Organization ;
+    ns15:isPartOf ns26:Organization ;
+    ns4:isIdentifiedBy ns26:OrganizationPartIdentifier .
+
+ns29:TaxIdentifier rdfs:label "tax identifier" ;
+    owl2vec:superClassOf ns24:ValueAddedTaxIdentificationNumber ;
+    rdfs:subClassOf ns8:NationalIdentificationNumber,
+        ns26:OrganizationIdentifier,
+        ns4:Identifier ;
+    ns20:appliesIn ns20:Jurisdiction ;
+    ns4:identifies ns29:IndependentParty ;
+    ns4:isMemberOf ns29:TaxIdentificationScheme .
+
+ns13:QuantityKind rdfs:label "quantity kind" ;
+    owl2vec:superClassOf ns13:BaseQuantity,
+        ns13:DerivedQuantity ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns13:hasDimension ns13:Dimensionality ;
+    ns13:hasMeasurementUnit ns13:MeasurementUnit ;
+    ns13:specializes ns13:QuantityKind .
+
+ns13:SystemOfUnits rdfs:label "system of units" ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme> ;
+    ns5:appliesTo ns13:SystemOfQuantities ;
+    ns5:comprises ns13:SystemOfUnits ;
+    ns5:defines ns13:MeasurementUnit ;
+    ns5:isIncludedIn ns13:SystemOfUnits ;
+    ns15:isUsedBy ns13:SystemOfUnits ;
+    ns15:uses ns13:SystemOfUnits .
+
+ns16:Aspect rdfs:label "aspect" ;
+    owl2vec:superClassOf ns27:Scheme,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier>,
+        ns12:ExplicitDatePeriod,
+        ns1:AddressComponent,
+        ns16:StatisticalArea ;
+    ns5:characterizes ns16:StatisticalMeasure .
+
+ns16:Dispersion rdfs:label "dispersion" ;
+    owl2vec:superClassOf ns16:AverageAbsoluteDeviation,
+        ns16:MedianAbsoluteDeviation,
+        ns16:StandardDeviation,
+        ns16:Variance ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure ;
+    ns5:appliesTo ns16:FinitePopulation ;
+    ns16:hasObservedValue ns27:StructuredCollection .
+
+ns16:StatisticalArea rdfs:label "statistical area" ;
+    rdfs:subClassOf ns16:Aspect,
+        ns15:GeographicRegion ;
+    ns5:characterizes ns16:StatisticalPopulation ;
+    ns4:isIdentifiedBy ns16:StatisticalAreaIdentifier .
+
+ns4:Arrangement rdfs:label "arrangement" ;
+    owl2vec:superClassOf ns27:Scheme,
+        ns15:CoordinateSystem,
+        ns15:GeographicRegionKind,
+        ns4:CodeSet,
+        ns4:IdentificationScheme,
+        ns4:WritingSystem .
+
+ns27:Scheme rdfs:label "scheme" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme>,
+        ns18:IndexingScheme,
+        ns4:CodeSet,
+        ns4:IdentificationScheme ;
+    rdfs:subClassOf ns16:Aspect,
+        ns4:Arrangement ;
+    ns5:characterizes ns27:StructuredCollection .
+
+ns27:StructuredCollection rdfs:label "structured collection" ;
+    owl2vec:superClassOf ns17:CurrencyBasket,
+        ns12:DatedStructuredCollection ;
+    rdfs:subClassOf ns4:Collection ;
+    ns5:isCharacterizedBy ns27:Scheme .
+
+ns12:CombinedDateTime a rdfs:Datatype ;
+    rdfs:label "combined date time" .
+
+ns12:Duration rdfs:label "duration" ;
+    owl2vec:superClassOf ns12:Age,
+        ns12:ExplicitDuration,
+        ns12:ExplicitRecurrenceInterval ;
+    owl2vec:typeOf ns12:Day ;
+    rdfs:subClassOf ns12:TimeInterval .
+
+ns14:FormalOrganization rdfs:label "formal organization" ;
+    owl2vec:superClassOf ns24:NotForProfitOrganization,
+        ns10:BusinessEntity,
+        ns10:LegalEntity,
+        ns2:CourtOfLaw ;
+    rdfs:subClassOf ns26:Organization ;
+    ns14:isDomiciledIn ns15:GeopoliticalEntity ;
+    ns4:isIdentifiedBy ns3:RegistrationIdentifier .
+
+ns9:BusinessDayConvention rdfs:label "business day convention" ;
+    owl2vec:typeOf ns9:BusinessDayFollowing,
+        ns9:BusinessDayModifiedFollowing,
+        ns9:BusinessDayModifiedPreceding,
+        ns9:BusinessDayNearest,
+        ns9:BusinessDayNone,
+        ns9:BusinessDayPreceding ;
+    rdfs:subClassOf ns9:Convention .
+
+ns21:OccurrenceKind rdfs:label "occurrence kind" ;
+    owl2vec:superClassOf ns7:BreachOfContract,
+        ns7:BreachOfCovenant ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns21:isExemplifiedBy ns21:Occurrence ;
+    ns5:isIncludedIn ns12:RegularSchedule,
+        ns12:ScheduleStub ;
+    ns15:classifies ns21:Occurrence .
+
+ns13:SystemOfQuantities rdfs:label "system of quantities"@en ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme> ;
+    ns5:comprises ns13:SystemOfQuantities ;
+    ns5:defines ns13:BaseQuantity,
+        ns13:DerivedQuantity ;
+    ns5:isIncludedIn ns13:SystemOfQuantities ;
+    ns15:isUsedBy ns13:SystemOfQuantities ;
+    ns15:uses ns13:SystemOfQuantities .
+
+ns5:Reference rdfs:label "reference" ;
+    owl2vec:superClassOf ns28:Name,
+        ns18:Index,
+        ns16:Constant,
+        ns16:Expression,
+        ns16:Formula,
+        ns16:Measure,
+        ns16:Variable,
+        ns4:Identifier ;
+    ns16:hasExpression ns16:Expression .
+
+ns16:Mean rdfs:label "mean" ;
+    owl2vec:superClassOf ns16:ArithmeticMean,
+        ns16:GeometricMean ;
+    rdfs:subClassOf ns16:Expression,
+        ns16:StatisticalMeasure,
+        ns16:Variable ;
+    ns16:hasObservedValue ns27:StructuredCollection .
+
+ns16:Variable rdfs:label "variable" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PaidInCapital>,
+        <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/RetainedEarnings>,
+        ns16:Constant,
+        ns16:Mean,
+        ns16:Median ;
+    rdfs:subClassOf ns5:Reference .
+
+ns12:ExplicitDate rdfs:label "explicit date" ;
+    owl2vec:superClassOf ns8:DateOfBirth,
+        ns8:DateOfDeath ;
+    rdfs:subClassOf ns12:Date .
+
+ns19:Objective rdfs:label "objective" ;
+    owl2vec:superClassOf ns10:NotForProfitObjective,
+        ns10:ProfitObjective,
+        ns10:PublicPurpose,
+        ns10:ReligiousObjective,
+        ns19:BusinessObjective,
+        ns19:FinancialObjective ;
+    ns12:hasDatePeriod ns12:DatePeriod ;
+    ns6:isImplementedBy ns6:Policy .
+
+ns6:LegalCapacity rdfs:label "legal capacity" ;
+    owl2vec:superClassOf ns10:PowerOfAttorney,
+        ns6:ContractualCapability,
+        ns6:DelegatedLegalAuthority,
+        ns6:LiabilityCapacity,
+        ns6:LitigationCapacity,
+        ns6:SignatoryCapacity ;
+    rdfs:subClassOf ns6:LegalConstruct ;
+    ns6:isCapacityOf ns29:IndependentParty ;
+    ns5:isConferredBy ns6:License .
+
+ns6:LegalConstruct rdfs:label "legal construct" ;
+    owl2vec:superClassOf ns6:Claim,
+        ns6:Duty,
+        ns6:LegalCapacity,
+        ns6:Regulation,
+        ns6:Right ;
+    ns6:isImplementedBy ns6:Policy ;
+    ns5:isConferredBy ns7:Contract,
+        ns2:Constitution,
+        ns2:Law ;
+    ns5:isConferredOn ns29:IndependentParty .
+
+ns6:LegalObligation rdfs:label "legal obligation" ;
+    owl2vec:superClassOf ns6:ContractualObligation ;
+    rdfs:subClassOf ns6:Duty ;
+    ns20:appliesIn ns20:Jurisdiction ;
+    ns6:isImpliedBy ns6:LegalRight ;
+    ns5:isConferredBy ns7:Contract,
+        ns20:StatuteLaw,
+        ns6:Regulation ;
+    ns5:isMandatedBy ns7:Contract,
+        ns20:StatuteLaw,
+        ns6:Regulation .
+
+ns13:MeasurementUnit rdfs:label "measurement unit" ;
+    owl2vec:superClassOf ns17:Currency,
+        ns13:BaseUnit,
+        ns13:DerivedUnit ;
+    rdfs:subClassOf ns13:Quantity ;
+    ns13:specializes ns13:MeasurementUnit ;
+    ns5:isDefinedIn ns13:SystemOfUnits .
+
+ns15:GeographicRegionIdentifier rdfs:label "geographic region identifier" ;
+    owl2vec:superClassOf ns1:Postcode,
+        ns1:RegionSpecificIdentifier,
+        ns16:StatisticalAreaIdentifier,
+        ns15:Alpha2Code,
+        ns15:Alpha3Code ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    ns4:denotes ns15:GeographicRegion ;
+    ns4:identifies ns15:GeographicRegion .
+
+ns10:LegalEntity rdfs:label "legal entity" ;
+    owl2vec:superClassOf ns30:Corporation,
+        ns24:JointVenture,
+        ns10:CharteredLegalPerson,
+        ns10:SpecialPurposeVehicle,
+        ns10:StatutoryBody,
+        ns10:VariableInterestEntity ;
+    rdfs:subClassOf ns10:LegalPerson,
+        ns14:FormalOrganization ;
+    ns24:hasEquity <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity> ;
+    ns10:isOrganizedIn ns20:Jurisdiction ;
+    ns5:isGovernedBy ns24:OrganizationCoveringAgreement ;
+    ns15:isClassifiedBy <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier> .
+
+ns28:Text a rdfs:Datatype ;
+    rdfs:label "text" .
+
+ns8:IdentityDocument rdfs:label "identity document" ;
+    owl2vec:superClassOf ns8:BirthCertificate,
+        ns8:DeathCertificate,
+        ns8:DriversLicense,
+        ns8:Passport ;
+    rdfs:subClassOf ns23:LegalDocument ;
+    ns7:isEvidenceFor ns8:DateOfBirth,
+        ns8:PlaceOfBirth,
+        ns1:PhysicalAddress ;
+    ns23:hasDateOfIssuance ns12:Date ;
+    ns23:hasExpirationDate ns12:Date ;
+    ns4:identifies ns8:Person ;
+    ns4:isIdentifiedBy ns4:Identifier .
+
+ns8:Person rdfs:label "person"@en ;
+    owl2vec:superClassOf ns10:LegallyCompetentNaturalPerson,
+        ns8:Adult,
+        ns8:LegalWorkingAgePerson,
+        ns8:Minor ;
+    rdfs:subClassOf ns29:IndependentParty ;
+    ns28:hasStructuredName ns8:PersonName ;
+    ns8:hasCitizenship ns15:Country ;
+    ns8:hasDateOfBirth ns8:DateOfBirth ;
+    ns8:hasDateOfDeath ns8:DateOfDeath ;
+    ns8:hasPlaceOfBirth ns8:PlaceOfBirth ;
+    ns8:hasPrimaryResidence ns1:ConventionalStreetAddress ;
+    ns8:hasResidence ns1:ConventionalStreetAddress ;
+    ns12:hasAge ns12:Age ;
+    ns14:isEmployedBy ns10:LegalPerson ;
+    ns22:playsRole ns14:Employee ;
+    ns4:isIdentifiedBy ns8:IdentityDocument,
+        ns8:NationalIdentificationNumber .
+
+ns1:AddressComponent rdfs:label "address component" ;
+    owl2vec:superClassOf ns1:PrimaryAddressNumber,
+        ns1:SecondaryUnit,
+        ns1:SecondaryUnitIndicator,
+        ns1:StreetAddress,
+        ns1:StreetName,
+        ns1:StreetSuffix,
+        ns1:StructureName,
+        ns1:SupplementalAddressComponent,
+        ns1:SupplementalAddressUnit ;
+    rdfs:subClassOf ns16:Aspect .
+
+ns1:PhysicalAddress rdfs:label "physical address"@en ;
+    owl2vec:superClassOf ns1:ConventionalStreetAddress,
+        ns1:PostOfficeBoxAddress ;
+    rdfs:subClassOf ns18:Index,
+        ns1:Address ;
+    ns7:isEvidencedBy ns8:IdentityDocument ;
+    ns18:isIndexTo ns25:PhysicalLocation ;
+    ns1:hasIndividualPostcode ns1:Postcode ;
+    ns1:hasStructureName ns1:StructureName ;
+    ns25:hasCountry ns15:Country ;
+    ns25:hasMunicipality ns25:Municipality ;
+    ns25:hasSubdivision ns15:CountrySubdivision ;
+    ns5:isDefinedIn ns1:PhysicalAddressingScheme ;
+    ns4:isIdentifiedBy ns1:PhysicalAddressIdentifier .
+
+skos:Concept rdfs:label "Concept"@en ;
+    owl2vec:superClassOf ns32:BibliographicCitation,
+        ns32:IssueResolution,
+        ns32:MediaType,
+        ns32:Module,
+        ns32:Organization,
+        ns32:Specification,
+        ns32:SpecificationFamily,
+        ns32:SpecificationVersion,
+        ns32:TypeOfContent ;
+    skos:semanticRelation skos:Concept ;
+    skos:topConceptOf skos:ConceptScheme .
+
+ns7:ContractualCommitment rdfs:label "contractual commitment" ;
+    owl2vec:superClassOf ns7:ExtensionProvision,
+        ns7:Representation,
+        ns7:TerminationProvision,
+        ns7:Warranty ;
+    rdfs:subClassOf ns31:MutualCommitment,
+        ns7:ContractualElement ;
+    ns5:isMandatedBy ns7:Contract ;
+    ns15:hasPart ns7:ContractualCommitment ;
+    ns15:isPartOf ns7:ContractualCommitment .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> rdfs:label "classifier" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier>,
+        ns21:OccurrenceKind,
+        ns1:SecondaryUnitDesignator,
+        ns1:StreetSuffix,
+        ns1:SupplementalAddressDesignator,
+        ns13:Dimensionality,
+        ns13:QuantityKind,
+        ns13:QuantityKindFactor,
+        ns13:UnitFactor ;
+    rdfs:subClassOf ns16:Aspect ;
+    ns5:isDefinedIn <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme> .
+
+ns12:DatePeriod rdfs:label "date period" ;
+    owl2vec:superClassOf ns12:ExplicitDatePeriod ;
+    rdfs:subClassOf ns12:TimeInterval ;
+    ns12:hasDuration ns12:Duration ;
+    ns12:hasEndDate ns12:Date ;
+    ns12:hasStartDate ns12:Date .
+
+ns12:TimeInterval rdfs:label "time interval" ;
+    owl2vec:superClassOf ns12:CalendarPeriod,
+        ns12:DatePeriod,
+        ns12:Duration,
+        ns12:RecurrenceInterval ;
+    owl2vec:typeOf ns12:Friday,
+        ns12:Monday,
+        ns12:Saturday,
+        ns12:Sunday,
+        ns12:Thursday,
+        ns12:Tuesday,
+        ns12:Wednesday .
+
+ns26:Organization rdfs:label "organization"@en ;
+    owl2vec:superClassOf ns14:FormalOrganization,
+        ns14:InformalOrganization,
+        ns26:OrganizationalSubUnit ;
+    rdfs:subClassOf ns29:IndependentParty ;
+    ns24:hasOperatingAddress ns1:PhysicalAddress ;
+    ns28:hasStructuredName ns26:OrganizationName ;
+    ns19:hasGoal ns19:Goal ;
+    ns26:hasSubUnit ns26:OrganizationalSubUnit ;
+    ns15:hasPart ns26:Organization,
+        ns26:OrganizationalSubUnit ;
+    ns15:isPartOf ns26:Organization ;
+    ns4:hasMember ns29:IndependentParty ;
+    ns4:isIdentifiedBy ns26:OrganizationIdentifier .
+
+ns29:IndependentParty rdfs:label "independent party" ;
+    owl2vec:superClassOf ns10:LegalPerson,
+        ns8:Person,
+        ns26:Organization ;
+    rdfs:subClassOf ns28:AutonomousAgent ;
+    ns24:hasRegisteredAddress ns1:ConventionalStreetAddress ;
+    ns28:hasStructuredName ns29:ContextualName ;
+    ns6:hasCapacity ns6:LegalCapacity ;
+    ns29:hasMailingAddress ns1:PhysicalAddress ;
+    ns1:hasAddress ns1:PhysicalAddress ;
+    ns4:isIdentifiedBy ns29:TaxIdentifier ;
+    ns4:isMemberOf ns26:Organization .
+
+ns16:Expression rdfs:label "expression" ;
+    owl2vec:superClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity>,
+        ns16:Difference,
+        ns16:Dispersion,
+        ns16:Mean,
+        ns16:Median,
+        ns16:Ratio,
+        ns16:Total,
+        ns16:WeightingFunction ;
+    rdfs:subClassOf ns5:Reference ;
+    ns16:hasArgument ns16:Constant,
+        ns16:Variable .
+
+ns16:StatisticalMeasure rdfs:label "statistical measure" ;
+    owl2vec:superClassOf ns16:Difference,
+        ns16:Dispersion,
+        ns16:Mean,
+        ns16:Median,
+        ns16:QualifiedMeasure,
+        ns16:Ratio,
+        ns16:Total,
+        ns16:WeightingFunction ;
+    rdfs:subClassOf ns16:Measure ;
+    ns5:isCharacterizedBy ns16:Aspect ;
+    ns5:isProvidedBy ns16:StatisticalProgram ;
+    ns16:hasApplicableDatePeriod ns12:DatePeriod .
+
+ns15:GeographicRegion rdfs:label "geographic region" ;
+    owl2vec:superClassOf ns1:PostCodeArea,
+        ns25:Parcel,
+        ns16:StatisticalArea,
+        ns15:GeopoliticalEntity ;
+    rdfs:subClassOf ns15:Location ;
+    ns15:hasSubregion ns15:GeographicRegion ;
+    ns15:isClassifiedBy ns15:GeographicRegionKind ;
+    ns15:isSubregionOf ns15:GeographicRegion ;
+    ns4:hasDenotation ns15:GeographicRegionIdentifier ;
+    ns4:isIdentifiedBy ns15:GeographicRegionIdentifier .
+
+ns15:GeopoliticalEntity rdfs:label "geopolitical entity" ;
+    owl2vec:superClassOf ns25:FederalCapitalArea,
+        ns25:Municipality,
+        ns15:Country,
+        ns15:CountrySubdivision,
+        ns15:Territory ;
+    rdfs:subClassOf ns15:GeographicRegion ;
+    ns15:uses ns17:Currency,
+        ns1:RegionSpecificIdentifier ;
+    ns15:usesAdministrativeLanguage ns4:Language .
+
+ns4:CodeElement rdfs:label "code element" ;
+    owl2vec:superClassOf ns17:CurrencyIdentifier,
+        ns17:FundsIdentifier,
+        ns17:PreciousMetalIdentifier,
+        ns17:UnitOfAccountIdentifier,
+        ns1:GeographicDirectionalSymbol,
+        ns1:PhysicalAddressIdentifier,
+        ns1:Postcode,
+        ns15:GeographicRegionIdentifier,
+        ns4:LanguageIdentifier ;
+    ns5:isIncludedIn ns18:CompositeIdentifier ;
+    ns4:isMemberOf ns4:CodeSet .
+
+ns4:IdentificationScheme rdfs:label "identification scheme" ;
+    owl2vec:superClassOf ns8:BirthCertificateIdentificationScheme,
+        ns8:DeathCertificateIdentificationScheme,
+        ns8:DriversLicenseIdentificationScheme,
+        ns8:NationalIdentificationNumberScheme,
+        ns8:PassportNumberIdentificationScheme,
+        ns26:OrganizationIdentificationScheme,
+        ns29:PartyInRoleIdentificationScheme,
+        ns29:TaxIdentificationScheme ;
+    rdfs:subClassOf ns27:Scheme,
+        ns4:Arrangement ;
+    ns4:hasMember ns4:Identifier .
+
+ns22:ThingInRole rdfs:label "thing-in-role" ;
+    owl2vec:superClassOf ns31:Beneficiary,
+        ns31:Obligee,
+        ns31:Obligor,
+        ns7:ContractParty,
+        ns6:Licensee,
+        ns6:Licensor,
+        ns14:Employee,
+        ns14:Employer,
+        ns26:MemberBearingOrganization,
+        ns26:OrganizationMember,
+        ns29:Undergoer,
+        ns22:AgentInRole .
+
+ns4:LanguageIdentifier rdfs:label "language identifier" ;
+    owl2vec:superClassOf ns4:Alpha2Code,
+        ns4:Alpha3Code,
+        ns4:BibliographicCode,
+        ns4:CollectiveLanguageCode,
+        ns4:IndividualLanguageIdentifier,
+        ns4:MacrolanguageIdentifier,
+        ns4:SpecialPurposeCode,
+        ns4:TerminologyCode ;
+    rdfs:subClassOf ns4:CodeElement,
+        ns4:Identifier ;
+    skos:altLabel "language symbol"^^xsd:string ;
+    skos:prefLabel "language identifier",
+        "language identifier"^^xsd:string ;
+    ns4:denotes ns4:Language ;
+    ns4:identifies ns4:Language .
+
+ns17:Currency rdfs:label "currency" ;
+    owl2vec:superClassOf ns17:Funds,
+        ns17:UnitOfAccount ;
+    rdfs:subClassOf ns13:MeasurementUnit ;
+    ns17:isTenderIn ns15:GeopoliticalEntity ;
+    ns27:isConstituentOf ns17:CurrencyBasket ;
+    ns15:isUsedBy ns15:GeopoliticalEntity ;
+    ns4:hasDenotation ns17:CurrencyIdentifier ;
+    ns4:isIdentifiedBy ns17:CurrencyIdentifier .
+
+ns12:Date rdfs:label "date" ;
+    owl2vec:superClassOf ns12:CalculatedDate,
+        ns12:ExplicitDate ;
+    rdfs:subClassOf ns12:TimeInstant .
+
+ns20:Jurisdiction rdfs:label "jurisdiction"@en ;
+    ns20:hasReach ns15:GeographicRegion ;
+    ns2:hasInForce ns20:StatuteLaw ;
+    ns5:governs ns3:RegistrationIdentifier,
+        ns30:InstrumentOfIncorporation .
+
+ns29:PartyInRole rdfs:label "party in role" ;
+    owl2vec:superClassOf ns31:Beneficiary,
+        ns31:Obligee,
+        ns31:Obligor,
+        ns7:ContractParty,
+        ns7:ContractThirdParty,
+        ns6:Licensee,
+        ns6:Licensor,
+        ns26:MemberBearingOrganization,
+        ns26:OrganizationMember,
+        ns29:Actor ;
+    rdfs:subClassOf ns22:AgentInRole ;
+    ns29:hasCommencementDate ns12:Date ;
+    ns29:hasRelatedPartyInRole ns29:PartyInRole ;
+    ns5:hasIdentity ns29:IndependentParty ;
+    ns4:isIdentifiedBy ns29:PartyInRoleIdentifier .
+
+ns4:Collection rdfs:label "collection" ;
+    owl2vec:superClassOf ns17:CurrencyBasket,
+        ns27:StructuredCollection,
+        ns23:Record,
+        ns12:AdHocSchedule,
+        ns12:DatedStructuredCollection,
+        ns12:Schedule,
+        ns12:ScheduleStub,
+        ns2:Constitution,
+        ns14:Group,
+        ns16:FinitePopulation,
+        ns16:StatisticalUniverse,
+        ns4:LanguageGroup,
+        ns4:Orthography,
+        ns4:Script ;
+    ns27:hasConstituent ns27:CollectionConstituent .
+
+ns4:Language rdfs:label "language" ;
+    owl2vec:superClassOf ns4:ArtificialLanguage,
+        ns4:ExtinctLanguage,
+        ns4:HistoricalLanguage,
+        ns4:IndividualLanguage,
+        ns4:LivingLanguage,
+        ns4:Macrolanguage,
+        ns4:NaturalLanguage,
+        ns4:SpecialPurposeLanguageConcept,
+        ns4:SpokenLanguage,
+        ns4:WrittenLanguage ;
+    ns4:hasDenotation ns4:LanguageIdentifier ;
+    ns4:hasEarlierForm ns4:Language ;
+    ns4:isIdentifiedBy ns4:LanguageIdentifier .
+
+ns7:Contract rdfs:label "contract" ;
+    owl2vec:superClassOf ns7:AssignableContract,
+        ns7:MutualContractualAgreement,
+        ns7:UnilateralContract,
+        ns7:VerbalContract,
+        ns7:WrittenContract ;
+    rdfs:subClassOf ns31:Agreement ;
+    ns7:hasContractDuration ns12:Duration ;
+    ns7:hasContractParty ns7:ContractParty ;
+    ns7:hasContractualElement ns7:ContractualElement ;
+    ns7:hasCounterparty ns7:Counterparty ;
+    ns7:hasEffectiveDate ns12:Date ;
+    ns7:hasExtensionProvision ns7:ExtensionProvision ;
+    ns7:hasGoverningJurisdiction ns20:Jurisdiction ;
+    ns7:hasPrincipalParty ns7:ContractPrincipal ;
+    ns7:hasThirdParty ns7:ContractThirdParty ;
+    ns7:supersedes ns7:Contract ;
+    ns5:confers ns6:ContractualObligation,
+        ns6:ContractualRight,
+        ns6:LegalConstruct,
+        ns6:LegalObligation ;
+    ns5:isGovernedBy ns7:MasterAgreement ;
+    ns5:mandates ns7:ContractualCommitment,
+        ns6:LegalObligation .
+
+ns4:Identifier rdfs:label "identifier" ;
+    owl2vec:superClassOf ns17:CurrencyIdentifier,
+        ns17:FundsIdentifier,
+        ns17:PreciousMetalIdentifier,
+        ns17:UnitOfAccountIdentifier,
+        ns8:BirthCertificateIdentifier,
+        ns8:DeathCertificateIdentifier,
+        ns8:DriversLicenseIdentifier,
+        ns8:NationalIdentificationNumber,
+        ns18:CompositeIdentifier,
+        ns18:ReassignableIdentifier,
+        ns6:LicenseIdentifier,
+        ns26:OrganizationIdentifier,
+        ns26:OrganizationPartIdentifier,
+        ns29:PartyInRoleIdentifier,
+        ns29:TaxIdentifier,
+        ns1:PhysicalAddressIdentifier,
+        ns15:GeographicRegionIdentifier,
+        ns4:LanguageIdentifier ;
+    rdfs:subClassOf ns5:Reference ;
+    ns5:isIncludedIn ns18:CompositeIdentifier ;
+    ns4:identifies owl:Thing,
+        ns8:IdentityDocument ;
+    ns4:isMemberOf ns4:IdentificationScheme .
+
+ns1:SecondaryUnitDesignator rdfs:label "secondary unit designator" ;
+    owl2vec:typeOf ns1:Apartment,
+        ns1:Basement,
+        ns1:Building,
+        ns1:Department,
+        ns1:Floor,
+        ns1:Front,
+        ns1:Hangar,
+        ns1:Key,
+        ns1:Lobby,
+        ns1:Lot,
+        ns1:Lower,
+        ns1:Office,
+        ns1:Penthouse,
+        ns1:Pier,
+        ns1:Rear,
+        ns1:Room,
+        ns1:Side,
+        ns1:Slip,
+        ns1:Space,
+        ns1:Stop,
+        ns1:Suite,
+        ns1:Trailer,
+        ns1:Unit,
+        ns1:Upper ;
+    rdfs:subClassOf <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier> ;
+    ns5:isIncludedIn ns1:SecondaryUnit .
+
+rdf:Property owl2vec:typeOf skos:altLabel,
+        skos:broadMatch,
+        skos:broader,
+        skos:broaderTransitive,
+        skos:changeNote,
+        skos:closeMatch,
+        skos:definition,
+        skos:editorialNote,
+        skos:exactMatch,
+        skos:example,
+        skos:hasTopConcept,
+        skos:hiddenLabel,
+        skos:historyNote,
+        skos:inScheme,
+        skos:mappingRelation,
+        skos:member,
+        skos:memberList,
+        skos:narrowMatch,
+        skos:narrower,
+        skos:narrowerTransitive,
+        skos:notation,
+        skos:note,
+        skos:prefLabel,
+        skos:related,
+        skos:relatedMatch,
+        skos:scopeNote,
+        skos:semanticRelation,
+        skos:topConceptOf .
+

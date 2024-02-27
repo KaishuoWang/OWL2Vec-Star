@@ -1,0 +1,977 @@
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LanguageIdentifier preferred_label language identifier
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Objectives Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Organizations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Country and Subdivision Representation Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Financial Dates Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Quantities and Units Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Agents Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Roles Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Legal Persons Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Corporations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Contracts Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Arrangements Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Classification Schemes Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Analytics Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Business Dates Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Specification Metadata (SM) Vocabulary
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Documents Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Language Representation Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Relations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Legal Core Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Accounting Equity Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Corporate Bodies Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Currency Amount Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Legal Capacity Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Jurisdiction Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Locations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Identifiers and Indices Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Formal Organizations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label People Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Agreements Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Annotation Vocabulary
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Parties Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Ownership Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Formal Business Organizations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Addresses Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations preferred_label Occurrences Ontology
+http://www.omg.org/techprocess/ab/SpecificationMetadata/addressForComments preferred_label addressForComments
+http://www.omg.org/techprocess/ab/SpecificationMetadata/affectsModelElement preferred_label affects model element
+http://www.omg.org/techprocess/ab/SpecificationMetadata/author preferred_label author
+http://www.omg.org/techprocess/ab/SpecificationMetadata/contentLanguage preferred_label content language
+http://www.omg.org/techprocess/ab/SpecificationMetadata/contentType preferred_label content type
+http://www.omg.org/techprocess/ab/SpecificationMetadata/contributor preferred_label contributor
+http://www.omg.org/techprocess/ab/SpecificationMetadata/copyright preferred_label copyright
+http://www.omg.org/techprocess/ab/SpecificationMetadata/dependsOn preferred_label depends on
+http://www.omg.org/techprocess/ab/SpecificationMetadata/directSource preferred_label direct source
+http://www.omg.org/techprocess/ab/SpecificationMetadata/documentNumber preferred_label document number
+http://www.omg.org/techprocess/ab/SpecificationMetadata/documentURL preferred_label URL for the document
+http://www.omg.org/techprocess/ab/SpecificationMetadata/editor preferred_label editor
+http://www.omg.org/techprocess/ab/SpecificationMetadata/familyAbbreviation preferred_label specification family abbreviation or acronym
+http://www.omg.org/techprocess/ab/SpecificationMetadata/familyAbstract preferred_label family abstract
+http://www.omg.org/techprocess/ab/SpecificationMetadata/familyTitle preferred_label specification family title
+http://www.omg.org/techprocess/ab/SpecificationMetadata/familyURL preferred_label specification family URL
+http://www.omg.org/techprocess/ab/SpecificationMetadata/fileAbbreviation preferred_label file-level abbreviation or acronym
+http://www.omg.org/techprocess/ab/SpecificationMetadata/fileAbstract preferred_label file-level abstract
+http://www.omg.org/techprocess/ab/SpecificationMetadata/fileVersion preferred_label file version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/filename preferred_label electronic file name
+http://www.omg.org/techprocess/ab/SpecificationMetadata/formalVersion preferred_label formal version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/format preferred_label format
+http://www.omg.org/techprocess/ab/SpecificationMetadata/informativeReference preferred_label informative reference
+http://www.omg.org/techprocess/ab/SpecificationMetadata/isNormative preferred_label is normative
+http://www.omg.org/techprocess/ab/SpecificationMetadata/keyword preferred_label keyword
+http://www.omg.org/techprocess/ab/SpecificationMetadata/moduleAbbreviation preferred_label module abbreviation or acronym
+http://www.omg.org/techprocess/ab/SpecificationMetadata/moduleAbstract preferred_label module abstract
+http://www.omg.org/techprocess/ab/SpecificationMetadata/moduleName preferred_label module name
+http://www.omg.org/techprocess/ab/SpecificationMetadata/moduleShortTitle preferred_label module short title
+http://www.omg.org/techprocess/ab/SpecificationMetadata/moduleVersion preferred_label module version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/normativeReference preferred_label normative reference
+http://www.omg.org/techprocess/ab/SpecificationMetadata/priorSpecificationVersion preferred_label prior specification version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/priorVersion preferred_label prior version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/publicationDate preferred_label publication date
+http://www.omg.org/techprocess/ab/SpecificationMetadata/relatedSpecification preferred_label related specification
+http://www.omg.org/techprocess/ab/SpecificationMetadata/responsibleTaskForce preferred_label responsible task force
+http://www.omg.org/techprocess/ab/SpecificationMetadata/revisedBy preferred_label revised by
+http://www.omg.org/techprocess/ab/SpecificationMetadata/shortTitle preferred_label short name for the specification or module
+http://www.omg.org/techprocess/ab/SpecificationMetadata/specificationAbbreviation preferred_label specification abbreviation or acronym
+http://www.omg.org/techprocess/ab/SpecificationMetadata/specificationAbstract preferred_label specification abstract
+http://www.omg.org/techprocess/ab/SpecificationMetadata/specificationTitle preferred_label specification name or title
+http://www.omg.org/techprocess/ab/SpecificationMetadata/specificationURL preferred_label specification URL
+http://www.omg.org/techprocess/ab/SpecificationMetadata/specificationVersionStatus preferred_label specification version status
+http://www.omg.org/techprocess/ab/SpecificationMetadata/specificationVersionURL preferred_label specification version URL
+http://www.omg.org/techprocess/ab/SpecificationMetadata/submitter preferred_label submitter
+http://www.omg.org/techprocess/ab/SpecificationMetadata/taskForceReport preferred_label task force report
+http://www.omg.org/techprocess/ab/SpecificationMetadata/technologyArea preferred_label technology area
+http://www.omg.org/techprocess/ab/SpecificationMetadata/thisVersion preferred_label this version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/topicArea preferred_label topic area
+http://www.w3.org/2004/02/skos/core#altLabel preferred_label alternative label
+http://www.w3.org/2004/02/skos/core#changeNote preferred_label change note
+http://www.w3.org/2004/02/skos/core#definition preferred_label definition
+http://www.w3.org/2004/02/skos/core#editorialNote preferred_label editorial note
+http://www.w3.org/2004/02/skos/core#example preferred_label example
+http://www.w3.org/2004/02/skos/core#hiddenLabel preferred_label hidden label
+http://www.w3.org/2004/02/skos/core#historyNote preferred_label history note
+http://www.w3.org/2004/02/skos/core#note preferred_label note
+http://www.w3.org/2004/02/skos/core#prefLabel preferred_label preferred label
+http://www.w3.org/2004/02/skos/core#scopeNote preferred_label scope note
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/constructRegex preferred_label construct regex
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/parseRegex preferred_label parse regex
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/actualExpression preferred_label actual expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/abbreviation preferred_label abbreviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/adaptedFrom preferred_label adapted from
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/commonDesignation preferred_label common designation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/definitionOrigin preferred_label definition origin
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/explanatoryNote preferred_label explanatory note
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel preferred_label has maturity level
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/logicalDefinition preferred_label logical definition
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/modifiedBy preferred_label modified by
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/modifiedOn preferred_label modified on
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation preferred_label preferred designation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/symbol preferred_label symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/synonym preferred_label synonym
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/termOrigin preferred_label term origin
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/usageNote preferred_label usage note
+http://www.w3.org/1999/02/22-rdf-syntax-ns#langString preferred_label langString
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/Text preferred_label text
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CombinedDateTime preferred_label combined date time
+http://www.omg.org/techprocess/ab/SpecificationMetadata/hasSpecificationVersion preferred_label has specification version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/isReflectedIn preferred_label is reflected in
+http://www.omg.org/techprocess/ab/SpecificationMetadata/isVersionOf preferred_label is version of
+http://www.omg.org/techprocess/ab/SpecificationMetadata/reflects preferred_label reflects
+http://www.w3.org/2004/02/skos/core#broadMatch preferred_label has broader match
+http://www.w3.org/2004/02/skos/core#broader preferred_label has broader
+http://www.w3.org/2004/02/skos/core#broaderTransitive preferred_label has broader transitive
+http://www.w3.org/2004/02/skos/core#closeMatch preferred_label has close match
+http://www.w3.org/2004/02/skos/core#exactMatch preferred_label has exact match
+http://www.w3.org/2004/02/skos/core#hasTopConcept preferred_label has top concept
+http://www.w3.org/2004/02/skos/core#inScheme preferred_label is in scheme
+http://www.w3.org/2004/02/skos/core#mappingRelation preferred_label is in mapping relation with
+http://www.w3.org/2004/02/skos/core#member preferred_label has member
+http://www.w3.org/2004/02/skos/core#memberList preferred_label has member list
+http://www.w3.org/2004/02/skos/core#narrowMatch preferred_label has narrower match
+http://www.w3.org/2004/02/skos/core#narrower preferred_label has narrower
+http://www.w3.org/2004/02/skos/core#narrowerTransitive preferred_label has narrower transitive
+http://www.w3.org/2004/02/skos/core#related preferred_label has related
+http://www.w3.org/2004/02/skos/core#relatedMatch preferred_label has related match
+http://www.w3.org/2004/02/skos/core#semanticRelation preferred_label is in semantic relation with
+http://www.w3.org/2004/02/skos/core#topConceptOf preferred_label is top concept in scheme
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/hasDateOfIncorporation preferred_label has date of incorporation
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/hasDateOfRegistration preferred_label has date of registration
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/hasIssuedCapital preferred_label has issued capital
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/isConstitutedBy preferred_label is constituted by
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/isIncorporatedIn preferred_label is incorporated in
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/hasEquity preferred_label has equity
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/hasHeadquartersAddress preferred_label has headquarters address
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/hasOperatingAddress preferred_label has operating address
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/hasRegisteredAddress preferred_label has registered address
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/isOrganizedIn preferred_label is organized in
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/isRecognizedIn preferred_label is recognized in
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency preferred_label has base currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency preferred_label has currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency preferred_label has dealt currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount preferred_label has monetary amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount preferred_label has notional amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice preferred_label has price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor preferred_label is price for
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/hasStructuredName preferred_label has structured name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/isStructuredNameOf preferred_label is structured name of
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority preferred_label has age of majority
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship preferred_label has citizenship
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth preferred_label has date of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath preferred_label has date of death
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge preferred_label has minimum legal working age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth preferred_label has place of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence preferred_label has primary residence
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence preferred_label has residence
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation preferred_label has obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf preferred_label is obligation of
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/definesTermsFor preferred_label defines terms for
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractDuration preferred_label has contract duration
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty preferred_label has contract party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement preferred_label has contractual element
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasCounterparty preferred_label has counterparty
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasEffectiveDate preferred_label has effective date
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasEffectiveDateTimeStamp preferred_label has effective date time stamp
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDate preferred_label has execution date
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDateTimeStamp preferred_label has execution date time stamp
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExtendablePeriod preferred_label has extendable period
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExtensionProvision preferred_label has extension provision
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasGoverningJurisdiction preferred_label has governing jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasNonBindingTerm preferred_label has non-binding term
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasPrincipalParty preferred_label has principal party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasTerm preferred_label has term
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasThirdParty preferred_label has third party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidenceFor preferred_label is evidence for
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy preferred_label is evidenced by
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isQualifiedBy preferred_label is qualified by
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/qualifies preferred_label qualifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/supersedes preferred_label supersedes
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/hasConstituent preferred_label has constituent
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/isConstituentOf preferred_label is constituent of
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDataSource preferred_label has data source
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance preferred_label has date of issuance
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate preferred_label has expiration date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord preferred_label has record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod preferred_label has reporting period
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasTerminationDate preferred_label has termination date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout preferred_label is about
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/records preferred_label records
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/isIndexTo preferred_label is index to
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment preferred_label has business day adjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayConvention preferred_label has business day convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention preferred_label has business recurrence interval convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/holdsDuring preferred_label holds during
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAge preferred_label has age
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAsOfDate preferred_label has as-of date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasCalendarPeriod preferred_label has calendar period
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDate preferred_label has date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateAdded preferred_label has date added
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDatePeriod preferred_label has date period
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateReceived preferred_label has date received
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateTime preferred_label has date time
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateTimeStamp preferred_label has date time stamp
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDuration preferred_label has duration
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasEndDate preferred_label has end date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasExplicitDate preferred_label has explicit date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasFinalStub preferred_label has final stub
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasInitialStub preferred_label has initial stub
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasOverallPeriod preferred_label has overall period
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval preferred_label has recurrence interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceStartDate preferred_label has recurrence start date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule preferred_label has schedule
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasStartDate preferred_label has start date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasStub preferred_label has stub
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasTimeDirection preferred_label has time direction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/isRelativeTo preferred_label is relative to
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/exemplifies preferred_label exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate preferred_label has event date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput preferred_label has input
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence preferred_label has occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput preferred_label has output
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isExemplifiedBy preferred_label is exemplified by
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isInputTo preferred_label is input to
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isOutputFrom preferred_label is output from
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy preferred_label is triggered by
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasGoal preferred_label has goal
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasObjective preferred_label has objective
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasStrategy preferred_label has strategy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/appliesIn preferred_label applies in
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach preferred_label has reach
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity preferred_label has capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements preferred_label implements
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies preferred_label implies
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf preferred_label is capacity of
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImplementedBy preferred_label is implemented by
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy preferred_label is implied by
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy preferred_label is licensed by
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses preferred_label licenses
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/hasInForce preferred_label has in force
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/isInForceIn preferred_label is in force in
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/employs preferred_label employs
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/hasEmployedParty preferred_label has employed party
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/hasEmployee preferred_label has employee
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/hasEmployingParty preferred_label has employing party
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/isDomiciledIn preferred_label is domiciled in
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/isEmployedBy preferred_label is employed by
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/isEmployedIn preferred_label is employed in
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/isEmployeeOf preferred_label is employee of
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/isEmployingParty preferred_label is employing party
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership preferred_label has membership role
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember preferred_label has organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit preferred_label has sub-unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn preferred_label is membership party in
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember preferred_label is organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf preferred_label is sub-unit of
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/hasOwnedAsset preferred_label has owned asset
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/hasOwningParty preferred_label has owning party
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/isAssetOf preferred_label is asset of
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/isOwnedAsset preferred_label is owned asset
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/isOwnedBy preferred_label is owned by
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/isOwningParty preferred_label is owning party
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/owns preferred_label owns
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/ownsAsset preferred_label is asset owner
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/actsIn preferred_label acts in
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/actsOn preferred_label acts on
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/directlyAffects preferred_label directly affects
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/experiences preferred_label experiences
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/experiencesDirectly preferred_label experiences directly
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/experiencesWith preferred_label experiences with
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasActiveParty preferred_label has active party
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasActor preferred_label has actor
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasCommencementDate preferred_label has commencement date
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasMailingAddress preferred_label has mailing address
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasParty preferred_label has party
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasPartyInRole preferred_label has party in role
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasRelatedPartyInRole preferred_label has related party-in-role
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasThingInRole preferred_label has thing in role
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/hasUndergoer preferred_label has undergoer
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/isAPartyTo preferred_label is a party to
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/isAffectedBy preferred_label is affected by
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/isDirectlyAffectedBy preferred_label is directly affected by
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/isExperiencedBy preferred_label is experienced by
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/playsActiveRoleIn preferred_label plays active role in
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/playsActiveRoleThatAffects preferred_label plays active role that affects
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/playsActiveRoleThatDirectlyAffects preferred_label plays active role that directly affects
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/undergoes preferred_label undergoes
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles/isPlayedBy preferred_label is played by
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles/playsRole preferred_label plays role
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress preferred_label has address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode preferred_label has individual postcode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol preferred_label has postdirectional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol preferred_label has predirectional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber preferred_label has primary address number
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit preferred_label has secondary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress preferred_label has street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName preferred_label has street name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix preferred_label has street suffix
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName preferred_label has structure name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress preferred_label has transliterated address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasBusinessCenter preferred_label has business center
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCountry preferred_label has country
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCounty preferred_label has county
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCoverageArea preferred_label has coverage area
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasMunicipality preferred_label has municipality
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasRegion preferred_label has region
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasSubdivision preferred_label has subdivision
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/isLocatedAt preferred_label is located at
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasDimension preferred_label has dimension
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasFactor preferred_label has factor
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasMeasurementUnit preferred_label has measurement unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityKind preferred_label has quantity kind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityValue preferred_label has quantity value
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom preferred_label is derived from
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/specializes preferred_label specializes
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/appliesTo preferred_label applies to
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/causes preferred_label causes
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/characterizes preferred_label characterizes
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/comprises preferred_label comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers preferred_label confers
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/controls preferred_label controls
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/defines preferred_label defines
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/describes preferred_label describes
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/designates preferred_label designates
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/embodies preferred_label embodies
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates preferred_label evaluates
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exchanges preferred_label exchanges
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/generates preferred_label generates
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs preferred_label governs
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasContext preferred_label has context
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasDesignation preferred_label has designation
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasIdentity preferred_label has identity
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasRepresentation preferred_label has representation
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/holds preferred_label holds
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/involves preferred_label involves
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isCausedBy preferred_label is caused by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isCharacterizedBy preferred_label is characterized by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy preferred_label is conferred by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredOn preferred_label is conferred on
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isControlledBy preferred_label is controlled by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isDefinedIn preferred_label is defined in
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isDescribedBy preferred_label is described by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isDesignatedBy preferred_label is designated by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isEvaluatedBy preferred_label is evaluated by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGeneratedBy preferred_label is generated by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy preferred_label is governed by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isHeldBy preferred_label is held by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIncludedIn preferred_label is included in
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy preferred_label is issued by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isManagedBy preferred_label is managed by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isMandatedBy preferred_label is mandated by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProducedBy preferred_label is produced by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy preferred_label is provided by
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues preferred_label issues
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/manages preferred_label manages
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/mandates preferred_label mandates
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/produces preferred_label produces
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides preferred_label provides
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/refersTo preferred_label refers to
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/represents preferred_label represents
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasAnchorDate preferred_label has anchor date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasApplicableDatePeriod preferred_label has applicable date period
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasArgument preferred_label has argument
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasExpression preferred_label has expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFixedComparativeDate preferred_label has fixed comparative date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFormula preferred_label has formula
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend preferred_label has minuend
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue preferred_label has observed value
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity preferred_label has periodicity
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod preferred_label has reference period
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativeDate preferred_label has relative comparative date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativePeriod preferred_label has relative comparative period
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate preferred_label has release date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend preferred_label has subtrahend
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isValueOf preferred_label is value of
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/classifies preferred_label classifies
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasPart preferred_label has part
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasSubregion preferred_label has subregion
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isClassifiedBy preferred_label is classified by
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isPartOf preferred_label is a part of
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isSubregionOf preferred_label is a subregion of
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isUsedBy preferred_label is used by
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/uses preferred_label uses
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/usesAdministrativeLanguage preferred_label uses administrative language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/denotes preferred_label denotes
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/has preferred_label has
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasDenotation preferred_label has denotation
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasEarlierForm preferred_label has earlier form
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasMember preferred_label has member
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/identifies preferred_label identifies
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/isIdentifiedBy preferred_label is identified by
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/isMemberOf preferred_label is member of
+http://www.omg.org/techprocess/ab/SpecificationMetadata/hasDescription preferred_label has description
+http://www.omg.org/techprocess/ab/SpecificationMetadata/hasIssueReference preferred_label has issue reference
+http://www.omg.org/techprocess/ab/SpecificationMetadata/isIdentifiedBy preferred_label is identified by
+http://www.w3.org/2004/02/skos/core#notation preferred_label notation
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/hasSharesAuthorized preferred_label has shares authorized
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount preferred_label has amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType preferred_label has funds type
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit preferred_label has minor unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode preferred_label has numeric code
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue preferred_label has rate value
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/hasTextValue preferred_label has text value
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName preferred_label has family name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFirstName preferred_label has first name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName preferred_label has full legal name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender preferred_label has gender
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGivenName preferred_label has given name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName preferred_label has last name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMaidenName preferred_label has maiden name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMiddleNameOrInitial preferred_label has middle name or initial
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNamePrefix preferred_label has name prefix
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNameSuffix preferred_label has name suffix
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName preferred_label has person name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname preferred_label has surname
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isAssignable preferred_label is assignable
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/hasCollectionSize preferred_label has collection size
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/hasAssignmentTerminationDate preferred_label has assignment termination date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/hasInitialAssignmentDate preferred_label has initial assignment date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAcquisitionDate preferred_label has acquisition date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasClosingDateTime preferred_label has closing date time
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasCount preferred_label has count
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateSpecification preferred_label has date specification
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateTimeStampValue preferred_label has date time stamp value
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateTimeValue preferred_label has date time value
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateValue preferred_label has date value
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDurationValue preferred_label has duration value
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasObservedDateTime preferred_label has observed date and time
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasOpeningDateTime preferred_label has opening date time
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasOrdinalNumber preferred_label has ordinal number
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRelativeDuration preferred_label has relative duration
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasTimeValue preferred_label has time value
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDateValue preferred_label has event date value
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 preferred_label has address line 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 preferred_label has address line 2
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 preferred_label has address line 3
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAttentionLine preferred_label has attention line
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting preferred_label has mail routing
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode preferred_label has postal code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange preferred_label requires secondary unit range
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCityName preferred_label has city
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasExponent preferred_label has exponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasNumericValue preferred_label has numeric value
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasAlias preferred_label has alias
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasCommonName preferred_label has common name
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasFormalName preferred_label has formal name
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasLegalName preferred_label has legal name
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/wasFormerlyKnownAs preferred_label was formerly known as
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementDateTime preferred_label has measurement date time
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementPeriodInMonths preferred_label has measurement period in months
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasNumberOfEntries preferred_label has number of entries
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize preferred_label has population size
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDateTime preferred_label has release date and time
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize preferred_label has universe size
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasWeight preferred_label has weight
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isCalculatedViaMethodology preferred_label is calculated via methodology
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate preferred_label is estimate
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishFullName preferred_label has English full name
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishShortName preferred_label has English short name
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishShortNameInCapitals preferred_label has English short name in capitals
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchFullName preferred_label has French full name
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchShortName preferred_label has French short name
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchShortNameInCapitals preferred_label has French short name in capitals
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasLatitude preferred_label has latitude
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasLocalShortName preferred_label has local short name
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasLongitude preferred_label has longitude
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasMaximumLatitude preferred_label has maximum latitude
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasMaximumLongitude preferred_label has maximum longitude
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasMinimumLatitude preferred_label has minimum latitude
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasMinimumLongitude preferred_label has minimum longitude
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasNumericRegionCode preferred_label has numeric region code
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasRemarks preferred_label has remarks
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isIndependent preferred_label is independent
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasEnglishName preferred_label has English name
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasFrenchName preferred_label has French name
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasGermanName preferred_label has German name
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasIndigenousName preferred_label has indigenous name
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasName preferred_label has name
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/hasTag preferred_label has tag
+http://www.omg.org/techprocess/ab/SpecificationMetadata/BibliographicCitation preferred_label bibliographic citation
+http://www.omg.org/techprocess/ab/SpecificationMetadata/IssueResolution preferred_label issue resolution
+http://www.omg.org/techprocess/ab/SpecificationMetadata/MediaType preferred_label MIME MediaType
+http://www.omg.org/techprocess/ab/SpecificationMetadata/Module preferred_label module
+http://www.omg.org/techprocess/ab/SpecificationMetadata/Organization preferred_label organization
+http://www.omg.org/techprocess/ab/SpecificationMetadata/Specification preferred_label specification
+http://www.omg.org/techprocess/ab/SpecificationMetadata/SpecificationFamily preferred_label specification family
+http://www.omg.org/techprocess/ab/SpecificationMetadata/SpecificationVersion preferred_label specification version
+http://www.omg.org/techprocess/ab/SpecificationMetadata/TypeOfContent preferred_label content type
+http://www.w3.org/2004/02/skos/core#Collection preferred_label Collection
+http://www.w3.org/2004/02/skos/core#Concept preferred_label Concept
+http://www.w3.org/2004/02/skos/core#ConceptScheme preferred_label Concept Scheme
+http://www.w3.org/2004/02/skos/core#OrderedCollection preferred_label Ordered Collection
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/BoardAgreement preferred_label board agreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/JointStockCompany preferred_label joint stock company
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/PrivatelyHeldCompany preferred_label privately held company
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/PubliclyHeldCompany preferred_label publicly held company
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/RegistrationIdentifier preferred_label registration identifier
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/RegistrationIdentifierScheme preferred_label registration identifier scheme
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/ReligiousCorporation preferred_label religious corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/BenefitCorporation preferred_label benefit corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/CommonInterestDevelopmentCorporation preferred_label common interest development corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/Corporation preferred_label corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/ForProfitCorporation preferred_label for profit corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/IncorporationGuarantee preferred_label incorporation guarantee
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/InstrumentOfIncorporation preferred_label instrument of incorporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/NotForProfitCorporation preferred_label not-for-profit corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/StockCorporation preferred_label stock corporation
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/Branch preferred_label branch
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/Division preferred_label division
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/JointVenture preferred_label joint venture
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/NonGovernmentalOrganization preferred_label non-governmental organization
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/NotForProfitOrganization preferred_label not for profit organization
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/OrganizationCoveringAgreement preferred_label organization covering agreement
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/ValueAddedTaxIdentificationNumber preferred_label value-added tax identification number
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/BusinessEntity preferred_label business entity
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/BusinessLicense preferred_label business license
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/CharteredLegalPerson preferred_label chartered legal person
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalEntity preferred_label legal entity
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson preferred_label legal person
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegallyCompetentNaturalPerson preferred_label legally competent natural person
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/NotForProfitObjective preferred_label not for profit objective
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/PowerOfAttorney preferred_label power of attorney
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/ProfitObjective preferred_label profit objective
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/PublicPurpose preferred_label public purpose
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/ReligiousObjective preferred_label religious objective
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/SpecialPurposeVehicle preferred_label special purpose vehicle
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/StatutoryBody preferred_label statutory body
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/VariableInterestEntity preferred_label variable interest entity
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/CapitalSurplus preferred_label capital surplus
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset preferred_label financial asset
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/Income preferred_label income
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/OwnersEquity preferred_label owners' equity
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PaidInCapital preferred_label paid-in capital
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PhysicalAsset preferred_label physical asset
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/RetainedEarnings preferred_label retained earnings
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/ShareholdersEquity preferred_label shareholders' equity
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney preferred_label amount of money
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CalculatedPrice preferred_label calculated price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency preferred_label currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket preferred_label currency basket
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier preferred_label currency identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate preferred_label exchange rate
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds preferred_label funds
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier preferred_label funds identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate preferred_label interest rate
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount preferred_label monetary amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryMeasure preferred_label monetary measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice preferred_label monetary price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount preferred_label percentage monetary amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal preferred_label precious metal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier preferred_label precious metal identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price preferred_label price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccount preferred_label unit of account
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier preferred_label unit of account identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice preferred_label unit price
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/AutomatedSystem preferred_label automated system
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/AutonomousAgent preferred_label autonomous agent
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/Name preferred_label name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult preferred_label adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority preferred_label age of majority
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate preferred_label birth certificate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme preferred_label birth certificate identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier preferred_label birth certificate identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth preferred_label date of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath preferred_label date of death
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate preferred_label death certificate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme preferred_label death certificate identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier preferred_label death certificate identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense preferred_label driver's license
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme preferred_label driver's license identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier preferred_label driver's license identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor preferred_label emancipated minor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument preferred_label identity document
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult preferred_label incapacitated adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge preferred_label legal age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge preferred_label legal working age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAgePerson preferred_label legal working age person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegallyCapableAdult preferred_label legally capable adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor preferred_label minor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber preferred_label national identification number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme preferred_label national identification number scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport preferred_label passport
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber preferred_label passport number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme preferred_label passport number identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person preferred_label person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName preferred_label person name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth preferred_label place of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement preferred_label agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary preferred_label beneficiary
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment preferred_label commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/CommitmentAtLarge preferred_label commitment at large
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/IndividualUnilateralCommitment preferred_label individual unilateral commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement preferred_label mutual agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment preferred_label mutual commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee preferred_label obligee
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor preferred_label obligor
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment preferred_label unilateral commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/AssignableContract preferred_label assignable contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/BreachOfContract preferred_label breach of contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/BreachOfCovenant preferred_label breach of covenant
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent preferred_label condition precedent
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract preferred_label contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractDocument preferred_label contract document
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractParty preferred_label contract party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractPrincipal preferred_label contract principal
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractThirdParty preferred_label contract third party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualCommitment preferred_label contractual commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition preferred_label contractual definition
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement preferred_label contractual element
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Counterparty preferred_label counterparty
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ExtensionProvision preferred_label extension provision
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MasterAgreement preferred_label master agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement preferred_label mutual contractual agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/NonBindingTerm preferred_label non-binding term
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/NovateableContract preferred_label novateable contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Representation preferred_label representation
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet preferred_label term sheet
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TerminationProvision preferred_label termination provision
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract preferred_label transferable contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract preferred_label unilateral contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract preferred_label verbal contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Warranty preferred_label warranty
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract preferred_label written contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/CollectionConstituent preferred_label collection constituent
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/Scheme preferred_label scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/StructuredCollection preferred_label structured collection
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme preferred_label classification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier preferred_label classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassificationScheme preferred_label industry sector classification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier preferred_label industry sector classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Certificate preferred_label certificate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Document preferred_label document
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/LegalDocument preferred_label legal document
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Notice preferred_label notice
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Record preferred_label record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ReferenceDocument preferred_label reference document
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/CompositeIdentifier preferred_label composite identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/Index preferred_label index
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/IndexingScheme preferred_label indexing scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/ReassignableIdentifier preferred_label reassignable identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment preferred_label business day adjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention preferred_label business day convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval preferred_label business recurrence interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention preferred_label business recurrence interval convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention preferred_label convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth preferred_label day of month
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfWeek preferred_label day of the week
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/EndOfMonth preferred_label end of the month
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/AdHocSchedule preferred_label ad hoc schedule
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/AdHocScheduleEntry preferred_label ad hoc schedule entry
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Age preferred_label age
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalculatedDate preferred_label calculated date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalendarPeriod preferred_label calendar period
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalendarSpecifiedInterval preferred_label calendar-specified interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Date preferred_label date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatePeriod preferred_label date period
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DateTime preferred_label date time
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DateTimeStamp preferred_label date time stamp
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedCollectionConstituent preferred_label dated collection constituent
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection preferred_label dated structured collection
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Duration preferred_label duration
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ExplicitDate preferred_label explicit date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ExplicitDatePeriod preferred_label explicit date period
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ExplicitDuration preferred_label explicit duration
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ExplicitRecurrenceInterval preferred_label explicit recurrence interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval preferred_label recurrence interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule preferred_label regular schedule
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RelativeDate preferred_label relative date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Schedule preferred_label schedule
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ScheduleStub preferred_label schedule stub
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/SpecifiedDate preferred_label specified date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/TimeDirection preferred_label time direction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/TimeInstant preferred_label time instant
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/TimeInterval preferred_label time interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/TimeOfDay preferred_label time of day
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence preferred_label occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate preferred_label occurrence-based date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind preferred_label occurrence kind
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/BusinessObjective preferred_label business objective
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/BusinessStrategy preferred_label business strategy
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/DistributionStrategy preferred_label distribution strategy
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/FinancialObjective preferred_label financial objective
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Goal preferred_label goal
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/InvestmentObjective preferred_label investment objective
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Objective preferred_label objective
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/SalesStrategy preferred_label sales strategy
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Strategy preferred_label strategy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction preferred_label jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw preferred_label statute law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Claim preferred_label claim
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation preferred_label contingent obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight preferred_label contingent right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualCapability preferred_label contractual capability
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation preferred_label contractual obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualOption preferred_label contractual option
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight preferred_label contractual right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority preferred_label delegated legal authority
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty preferred_label duty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity preferred_label legal capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct preferred_label legal construct
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation preferred_label legal obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight preferred_label legal right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity preferred_label liability capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License preferred_label license
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier preferred_label license identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee preferred_label licensee
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor preferred_label licensor
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LitigationCapacity preferred_label litigation capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy preferred_label policy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation preferred_label regulation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ReportingPolicy preferred_label reporting policy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right preferred_label right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/SignatoryCapacity preferred_label signatory capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/Constitution preferred_label constitution
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/CourtOfLaw preferred_label court of law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/Law preferred_label law
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/Employee preferred_label employee
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/Employer preferred_label employer
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/Employment preferred_label employment
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/FormalOrganization preferred_label formal organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/Group preferred_label group
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/InformalOrganization preferred_label informal organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization preferred_label member-bearing organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership preferred_label membership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization preferred_label organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme preferred_label organization identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier preferred_label organization identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember preferred_label organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName preferred_label organization name
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier preferred_label organization part identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit preferred_label organizational sub-unit
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Asset preferred_label asset
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/IntangibleAsset preferred_label intangible asset
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Owner preferred_label owner
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Ownership preferred_label ownership
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/TangibleAsset preferred_label tangible asset
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/Actor preferred_label actor
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/ContextualName preferred_label contextual name
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/IndependentParty preferred_label independent party
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/PartyInRole preferred_label party in role
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/PartyInRoleIdentificationScheme preferred_label party-in-role identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/PartyInRoleIdentifier preferred_label party-in-role identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/Situation preferred_label situation
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/TaxIdentificationScheme preferred_label tax identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/TaxIdentifier preferred_label tax identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/Undergoer preferred_label undergoer
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles/AgentInRole preferred_label agent-in-role
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles/ThingInRole preferred_label thing-in-role
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address preferred_label address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent preferred_label address component
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme preferred_label addressing scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress preferred_label conventional street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol preferred_label geographic directional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress preferred_label physical address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier preferred_label physical address identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme preferred_label physical addressing scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea preferred_label post code area
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox preferred_label post office box
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxAddress preferred_label post office box address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator preferred_label post office box designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode preferred_label postcode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol preferred_label postdirectional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol preferred_label predirectional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber preferred_label primary address number
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/RegionSpecificIdentifier preferred_label region-specific identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit preferred_label secondary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator preferred_label secondary unit designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator preferred_label secondary unit indicator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress preferred_label street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName preferred_label street name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix preferred_label street suffix
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName preferred_label structure name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent preferred_label supplemental address component
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator preferred_label supplemental address designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit preferred_label supplemental address unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress preferred_label virtual address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter preferred_label business center
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County preferred_label county
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea preferred_label federal capital area
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState preferred_label federal state
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality preferred_label municipality
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel preferred_label parcel
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation preferred_label physical location
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace preferred_label populated place
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate preferred_label real estate
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseQuantity preferred_label base quantity
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseUnit preferred_label base unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedQuantity preferred_label derived quantity
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedUnit preferred_label derived unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Dimensionality preferred_label dimensionality
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/MeasurementUnit preferred_label measurement unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Quantity preferred_label quantity
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKind preferred_label quantity kind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKindFactor preferred_label quantity kind factor
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityValue preferred_label quantity value
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfQuantities preferred_label system of quantities
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfUnits preferred_label system of units
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/UnitFactor preferred_label unit factor
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/Reference preferred_label reference
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/Referent preferred_label referent
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation preferred_label annualized standard deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean preferred_label arithmetic mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Aspect preferred_label aspect
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation preferred_label average absolute deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Constant preferred_label constant
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference preferred_label difference
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion preferred_label dispersion
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Expression preferred_label expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation preferred_label finite population
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula preferred_label formula
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/GeometricMean preferred_label geometric mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean preferred_label mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Measure preferred_label measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median preferred_label median
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/MedianAbsoluteDeviation preferred_label median absolute deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue preferred_label numeric index value
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Percentage preferred_label percentage
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure preferred_label qualified measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Ratio preferred_label ratio
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/RatioValue preferred_label ratio value
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance preferred_label sampling variance
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure preferred_label scoped measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation preferred_label standard deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea preferred_label statistical area
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier preferred_label statistical area identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure preferred_label statistical measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation preferred_label statistical population
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram preferred_label statistical program
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse preferred_label statistical universe
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Total preferred_label total
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variable preferred_label variable
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance preferred_label variance
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction preferred_label weighting function
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel preferred_label maturity level
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Alpha2Code preferred_label alpha-2 code
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Alpha3Code preferred_label alpha-3 code
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CoordinateSystem preferred_label coordinate system
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country preferred_label country
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision preferred_label country subdivision
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicCoordinateSystem preferred_label geographic coordinate system
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion preferred_label geographic region
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegionIdentifier preferred_label geographic region identifier
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegionKind preferred_label kind of geographic region
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity preferred_label geopolitical entity
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location preferred_label location
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory preferred_label territory
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Alpha2Code preferred_label alpha-2 code
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Alpha3Code preferred_label alpha-3 code
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/AncientLanguage preferred_label ancient language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Arrangement preferred_label arrangement
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/ArtificialLanguage preferred_label artificial language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/BibliographicCode preferred_label bibliographic code
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/CodeElement preferred_label code element
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/CodeSet preferred_label code set
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Collection preferred_label collection
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/CollectiveLanguageCode preferred_label collective language code
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Dialect preferred_label dialect
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/ExtinctLanguage preferred_label extinct language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/HistoricalLanguage preferred_label historical language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/IdentificationScheme preferred_label identification scheme
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Identifier preferred_label identifier
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/IndividualLanguage preferred_label individual language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/IndividualLanguageIdentifier preferred_label individual language identifier
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Language preferred_label language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LanguageFamily preferred_label language family
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LanguageGroup preferred_label language group
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LanguageVariant preferred_label language variant
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LanguageVariation preferred_label language variation
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LivingLanguage preferred_label living language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Macrolanguage preferred_label macrolanguage
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/MacrolanguageIdentifier preferred_label macrolanguage identifier
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/NaturalLanguage preferred_label natural language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Orthography preferred_label orthography
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/RemainderGroup preferred_label remainder group
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Script preferred_label script
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/SpecialPurposeCode preferred_label special purpose code
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/SpecialPurposeLanguageConcept preferred_label special purpose language concept
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/SpokenLanguage preferred_label spoken language
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/StandardVariant preferred_label standard variant
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/TerminologyCode preferred_label terminology code
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Transcription preferred_label transcription
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Transliteration preferred_label transliteration
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/WritingSystem preferred_label writing system
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/WrittenLanguage preferred_label written language
+http://www.omg.org/techprocess/ab/SpecificationMetadata/MITLicense preferred_label The MIT License
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayFollowing preferred_label business day following
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedFollowing preferred_label business day modified following
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedPreceding preferred_label business day modified preceding
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNearest preferred_label business day nearest
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNone preferred_label business day none
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayPreceding preferred_label business day preceding
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalendarMonth preferred_label calendar month
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalendarQuarter preferred_label calendar quarter
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalendarWeek preferred_label calendar week
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalendarYear preferred_label calendar year
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Day preferred_label day
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Friday preferred_label Friday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/FromEnd preferred_label from the end
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/FromStart preferred_label from the start
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Monday preferred_label Monday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Saturday preferred_label Saturday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Sunday preferred_label Sunday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Thursday preferred_label Thursday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Tuesday preferred_label Tuesday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Wednesday preferred_label Wednesday
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment preferred_label apartment
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement preferred_label basement
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building preferred_label building
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department preferred_label department
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor preferred_label floor
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front preferred_label front
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar preferred_label hanger
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key preferred_label key
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby preferred_label lobby
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot preferred_label lot
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower preferred_label lower
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office preferred_label office
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse preferred_label penthouse
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier preferred_label pier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear preferred_label rear
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room preferred_label room
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side preferred_label side
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip preferred_label slip
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space preferred_label space
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop preferred_label stop
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite preferred_label suite
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer preferred_label trailer
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit preferred_label unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper preferred_label upper
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Informative preferred_label informative
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional preferred_label provisional
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release preferred_label release
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies preferred_label Corporate Bodies Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations preferred_label Formal Business Organizations Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons preferred_label Legal Persons Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People preferred_label People Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents preferred_label Agents Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary preferred_label Annotation Vocabulary
+http://www.omg.org/techprocess/ab/SpecificationMetadata preferred_label Specification Metadata (SM) Vocabulary
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation preferred_label Language Representation Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents preferred_label Documents Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates preferred_label Financial Dates Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements preferred_label Arrangements Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations preferred_label Relations Ontology
+https://www.omg.org/spec/LCC/Countries/CountryRepresentation preferred_label Country and Subdivision Representation Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices preferred_label Identifiers and Indices Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties preferred_label Parties Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates preferred_label Business Dates Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations preferred_label Locations Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles preferred_label Roles Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses preferred_label Addresses Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes preferred_label Classification Schemes Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics preferred_label Analytics Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives preferred_label Objectives Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits preferred_label Quantities and Units Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements preferred_label Agreements Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts preferred_label Contracts Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences preferred_label Occurrences Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction preferred_label Jurisdiction Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore preferred_label Legal Core Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations preferred_label Formal Organizations Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations preferred_label Organizations Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity preferred_label Legal Capacity Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity preferred_label Accounting Equity Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount preferred_label Currency Amount Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership preferred_label Ownership Ontology
+http://www.omg.org/techprocess/ab/SpecificationMetadata/Specification spec
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/LanguageIdentifier language symbol
+https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/CodeSet coding scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw statutory law
